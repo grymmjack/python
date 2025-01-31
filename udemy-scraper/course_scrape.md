@@ -1,0 +1,829 @@
+# 📚 Udemy Course Scrape Results
+
+
+## 📚 Section 1: An Introduction to Machine Learning (Duration: 0 / 7 | 1hr 4min)
+
+- 🎓 1. Introduction (1min)
+- 🎓 2. What is Machine Learning (11min)
+- 🎓 3. Types and Applications of ML (26min)
+- 🎓 4. AI vs ML (10min)
+- 🎓 5. Essential Math for ML and AI (17min)
+- 🎓 6. Quiz- Questions- Section1 (1min)
+- 🎓 7. Quiz- Answers - Section 1 (1min)
+
+## 📚 Section 2: Supervised Learning - part 1 (Duration: 0 / 10 | 1hr 54min)
+
+- 🎓 8. Introduction to Supervised Learning (14min)
+- 🎓 9. Linear Methods for Classification (17min)
+- 🎓 10. Linear Methods for Regression (12min)
+- 🎓 11. Support Vector Machines (16min)
+- 🎓 12. Basis Expansions (11min)
+- 🎓 13. Model Selection Procedures (14min)
+- 🎓 14. Bonus! Supervised Learning Project in Python Part 1 (15min)
+- 🎓 15. Bonus! Supervised Learning Project in Python Part 2 (15min)
+- 🎓 16. Quiz- Questions- Section 2 (1min)
+- 🎓 17. Quiz- Answers - Section 2 (1min)
+
+## 📚 Section 3: Unsupervised Learning (Duration: 0 / 7 | 1hr 10min)
+
+- 🎓 18. Introduction to Unsupervised Learning (12min)
+- 🎓 19. Association Rules (14min)
+- 🎓 20. Cluster Analysis (13min)
+- 🎓 21. Reinforcement Learning (17min)
+- 🎓 22. Bonus! KMeans Clustering Project (14min)
+- 🎓 23. Quiz- Questions- Section 3 (1min)
+- 🎓 24. Quiz- Answers - Section 3 (1min)
+
+## 📚 Section 4: Neural Networks (Duration: 0 / 5 | 1hr 5min)
+
+- 🎓 25. Introduction to Neural Networks (12min)
+- 🎓 26. The Perceptron (10min)
+- 🎓 27. The Backpropagation Algorithm (12min)
+- 🎓 28. Training Procedures (14min)
+- 🎓 29. Convolutional Neural Networks (16min)
+
+## 📚 Section 5: Real World Machine Learning (Duration: 0 / 6 | 41min)
+
+- 🎓 30. Introduction to Real World ML (11min)
+- 🎓 31. Choosing an Algorithm (9min)
+- 🎓 32. Design and Analysis of ML Experiments (10min)
+- 🎓 33. Common Software for ML (11min)
+- 🎓 34. Quiz- Questions- Section 5 (1min)
+- 🎓 35. Quiz- Answers - Section 5 (1min)
+
+## 📚 Section 6: Warmup Project (Duration: 0 / 3 | 51min)
+
+- 🎓 36. Setting up OpenAI Gym (13min)
+- 🎓 37. Building and Training the Network Part 1 (16min)
+- 🎓 38. Building and Training the Network Part 2 (22min)
+
+## 📚 Section 7: Project 1Board Game Review Prediction (Duration: 0 / 4 | 43min)
+
+- 🎓 39. Intro (2min)
+- 🎓 40. Board Game Review Prediction - Building the Dataset Part 1 (10min)
+- 🎓 41. Board Game Review Prediction - Building the Dataset Part 2 (17min)
+- 🎓 42. Board Game Review Prediction - Training the Models (15min)
+
+## 📚 Section 8: Project 2 Credit Card Fraud Detection (Duration: 0 / 3 | 45min)
+
+- 🎓 43. Intro (2min)
+- 🎓 44. Credit Card Fraud Detection - The Dataset (22min)
+- 🎓 45. Credit Card Fraud Detection - The Algorithms (21min)
+
+## 📚 Section 9: Project 3 Intro to Natural Language Processing (Duration: 0 / 4 | 1hr 20min)
+
+- 🎓 46. Intro (1min)
+- 🎓 47. Tokenizing, Stop Words, and Stemming (23min)
+- 🎓 48. Tagging, Chunking, and Named Entity Recognition (32min)
+- 🎓 49. Text Classification (24min)
+
+## 📚 Section 10: Project 4 Object Recognition (Duration: 0 / 4 | 1hr 13min)
+
+- 🎓 50. Intro (1min)
+- 🎓 51. Loading and Preprocessing the CIFAR10 Dataset (26min)
+- 🎓 52. Building and Deploying the All-CNN Network Part 1 (25min)
+- 🎓 53. Building and Deploying the All-CNN Network Part 2 (21min)
+
+## 📚 Section 11: Project 5 Image Super Resolution (Duration: 0 / 3 | 1hr 23min)
+
+- 🎓 54. Intro (1min)
+- 🎓 55. Quality Metrics and Preprocessing Images (34min)
+- 🎓 56. Image Super Resolution using Deep Learning (47min)
+
+## 📚 Section 12: Project 6 Text Classification (Duration: 0 / 3 | 1hr 16min)
+
+- 🎓 57. Intro (1min)
+- 🎓 58. Feature Engineering (48min)
+- 🎓 59. Deploying Sklearn Classifiers (27min)
+
+## 📚 Section 13: Project 7 - KMeans (Duration: 0 / 3 | 1hr 9min)
+
+- 🎓 60. Intro (1min)
+- 🎓 61. Preprocessing Images for Clustering (39min)
+- 🎓 62. Evaluation and Visualization (29min)
+
+## 📚 Section 14: Project 8 PCA (Duration: 0 / 4 | 54min)
+
+- 🎓 63. Intro (1min)
+- 🎓 64. The Elbow Method (23min)
+- 🎓 65. PCA Compression and Visualization (30min)
+- 🎓 66. Bonus Lecture: More Interesting Stuff, Offers and Discounts (1min)
+
+## 📚 Section 1: Introduction (Duration: 0 / 2 | 4min)
+
+- 🎓 1. Course Introduction (3min)
+- 🎓 2. Course Guide (1min)
+
+## 📚 Section 2: What is Big Data and Hadoop (Duration: 0 / 6 | 16min)
+
+
+## 📚 Section 3: Introduction to Hadoop (Duration: 0 / 17 | 1hr 14min)
+
+
+## 📚 Section 4: Pig (Duration: 0 / 4 | 15min)
+
+
+## 📚 Section 5: Apache Spark (Duration: 0 / 7 | 26min)
+
+
+## 📚 Section 6: Hive (Duration: 0 / 6 | 24min)
+
+
+## 📚 Section 7: Real Time Processing (Duration: 0 / 1 | 3min)
+
+
+## 📚 Section 8: Kafka (Duration: 0 / 5 | 19min)
+
+
+## 📚 Section 9: Storm (Duration: 0 / 5 | 23min)
+
+
+## 📚 Section 10: Spark Streaming (Duration: 0 / 7 | 18min)
+
+
+## 📚 Section 11: HBase (Duration: 0 / 12 | 40min)
+
+
+## 📚 Section 12: Phoenix (Duration: 0 / 4 | 15min)
+
+
+## 📚 Section 13: Hadoop Security (Duration: 0 / 7 | 22min)
+
+
+## 📚 Section 14: Ranger (Duration: 0 / 3 | 14min)
+
+
+## 📚 Section 15: HDFS Encryption (Duration: 0 / 2 | 12min)
+
+
+## 📚 Section 16: Advanced Topics (Duration: 0 / 10 | 31min)
+
+- 🎓 87. Yarn Schedulers (4min)
+- 🎓 88. Demo: Capacity Scheduler (6min)
+- 🎓 89. Label based scheduling (1min)
+- 🎓 90. Yarn Sizing (2min)
+- 🎓 91. Hive Query Optimizations (2min)
+- 🎓 92. Join Strategies (4min)
+- 🎓 93. Spark Optimizations (2min)
+- 🎓 94. NameNode High Availability (3min)
+- 🎓 95. Demo: NameNode High Availability Setup (4min)
+- 🎓 96. Database High Availability (1min)
+
+## 📚 Section 17: Thank You (Duration: 0 / 2 | 3min)
+
+- 🎓 97. Thank You! (1min)
+- 🎓 98. Bonus Lecture: My Other Courses (3min)
+
+## 📚 Section 1: Introduction to AWS (Duration: 0 / 4 | 33min)
+
+- 🎓 1. Cloud Computing - Definition & Deployment Models (8min)
+- 🎓 2. Anatomy of Cloud Stack (8min)
+- 🎓 3. Free Tier Limitations (9min)
+- 🎓 4. Creating a Billing Alarm (8min)
+
+## 📚 Section 2: Amazon Elastic Compute Cloud (EC2) (Duration: 0 / 21 | 3hr 10min)
+
+- 🎓 5. An Introduction to Amazon EC2 (17min)
+- 🎓 6. Exploring EC2, AMIs and Instance Types on AWS Management Console (19min)
+- 🎓 7. Regions and Availability Zones (AZs) (9min)
+- 🎓 8. Amazon EC2 Pricing – Free Tier, On-Demand and Spot Instances (11min)
+- 🎓 9. Amazon EC2 Pricing (contd.) (12min)
+- 🎓 10. IP Addressing (6min)
+- 🎓 11. An Introduction to Amazon EBS (8min)
+- 🎓 12. Accessing & Managing EBS Volumes (10min)
+- 🎓 13. An Introduction to Security Groups (12min)
+- 🎓 14. Security Groups Hands-on (8min)
+- 🎓 15. Getting started with Amazon EC2 Linux instances (11min)
+- 🎓 16. Configuring Instance Details (16min)
+- 🎓 17. Adding Storage, Tags, Security Groups & Key Pairs (10min)
+- 🎓 18. Connecting to Amazon Linux EC2 Instance from macOS (4min)
+- 🎓 19. Connecting to Amazon Linux EC2 Instance from Windows PC (8min)
+- 🎓 20. Getting Started with Amazon EC2 Windows Instances (5min)
+- 🎓 21. Connecting to Amazon EC2 Windows Instance from macOS (4min)
+- 🎓 22. Connecting to Amazon EC2 Windows Instance from Windows 10 PC (2min)
+- 🎓 23. An Introduction to Elastic IP Addresses (7min)
+- 🎓 24. Elastic IP Addresses Hands-on (12min)
+- 🎓 Quiz 1: Amazon EC2 Quiz (N/A)
+
+## 📚 Section 3: An Introduction to Command Line Interface (CLI) (Duration: 0 / 7 | 30min)
+
+- 🎓 25. Install the AWS Command Line Interface on macOS (3min)
+- 🎓 26. Install the AWS Command Line Interface on Microsoft Windows (5min)
+- 🎓 27. Configure the AWS Command Line Interface (5min)
+- 🎓 28. A brief overview of the steps (1min)
+- 🎓 29. Create a security group and define its inbound rules (9min)
+- 🎓 30. Create a key pair and download the private key (3min)
+- 🎓 31. Finally, launch an EC2 Instance (4min)
+
+## 📚 Section 4: Elastic Load Balancing (Duration: 0 / 13 | 1hr 59min)
+
+- 🎓 32. Elastic Load Balancing (11min)
+- 🎓 33. Security Groups for Load Balancers (4min)
+- 🎓 34. Creating Security Groups for ELBs and EC2 Instances (15min)
+- 🎓 35. SSL Certificates (7min)
+- 🎓 36. Getting started with Classic Load Balancers (13min)
+- 🎓 37. Launching and adding EC2 instances to our Classic Load Balancer (8min)
+- 🎓 38. Testing our Classic Load Balancer's Deployment (9min)
+- 🎓 39. Application Load Balancer (18min)
+- 🎓 40. Network Load Balancer (16min)
+- 🎓 41. Stickiness (4min)
+- 🎓 42. Cross-Zone Load Balancing (7min)
+- 🎓 43. Connection Draining (8min)
+- 🎓 Quiz 2: ELB Quiz (N/A)
+
+## 📚 Section 5: Amazon EC2 Auto Scaling (Duration: 0 / 15 | 1hr 53min)
+
+- 🎓 44. Introduction to Auto Scaling (7min)
+- 🎓 45. Auto Scaling Components and Pricing (6min)
+- 🎓 46. Creating a Security Group and a Key Pair for our Launch Template (6min)
+- 🎓 47. Creating a Launch Template (13min)
+- 🎓 48. Getting Started with Amazon EC2 Auto Scaling (11min)
+- 🎓 49. Testing Our Auto Scaling Deployment (8min)
+- 🎓 50. Set up a scaled and load-balanced application (9min)
+- 🎓 51. Creating a Classic Load Balancer (4min)
+- 🎓 52. Creating a Launch Template while including User Data (4min)
+- 🎓 53. Creating an Auto Scaling group with a Load Balancer (5min)
+- 🎓 54. Performing test using Load Balancer's DNS name (7min)
+- 🎓 55. Getting Started with Target Tracking Policy (5min)
+- 🎓 56. Implementing Target Tracking Policy via an Auto Scaling group (13min)
+- 🎓 57. Putting Target Tracking policy to test (13min)
+- 🎓 Quiz 3: Auto Scaling Quiz (N/A)
+
+## 📚 Section 6: Virtual Private Cloud (VPC) (Duration: 0 / 24 | 2hr 22min)
+
+- 🎓 58. VPC Essentials (5min)
+- 🎓 59. Subnets (8min)
+- 🎓 60. Other Basic Concepts (4min)
+- 🎓 61. Default vs. Non-Default VPC (6min)
+- 🎓 62. Internet Gateway (IGW) (10min)
+- 🎓 63. NAT Gateway (8min)
+- 🎓 64. Route Tables Part 1 (5min)
+- 🎓 65. Route Tables Part 2 (3min)
+- 🎓 66. Blueprint for creating Non-Default VPC (6min)
+- 🎓 67. Building our First Non-Default VPC Part 1 (7min)
+- 🎓 68. Building our First Non-Default VPC Part 2 (6min)
+- 🎓 69. Building our First Non-Default VPC Part 3 (10min)
+- 🎓 70. Building our First Non-Default VPC Part 4 (6min)
+- 🎓 71. Building our First Non-Default VPC Part 5 (6min)
+- 🎓 72. Building our First Non-Default VPC Part 6 (5min)
+- 🎓 73. Building our First Non-Default VPC Part 7 (3min)
+- 🎓 74. Building our First Non-Default VPC Part 8 (5min)
+- 🎓 75. Building our First Non-Default VPC Part 9 (3min)
+- 🎓 76. Access Control List (ACL) (3min)
+- 🎓 77. Configuring our Access Control List (9min)
+- 🎓 78. Overview of VPC Peering (5min)
+- 🎓 79. VPC Peering Configuration (15min)
+- 🎓 80. Summarization (5min)
+- 🎓 Quiz 4: Quiz for Section 6 (N/A)
+
+## 📚 Section 7: Route 53 (Duration: 0 / 12 | 3hr 1min)
+
+- 🎓 81. Introduction (1min)
+- 🎓 82. DNS 101 (2min)
+- 🎓 83. Exploring DNS Service Options and Domain Registration Lab (15min)
+- 🎓 84. Routing Policy (1min)
+- 🎓 85. Simple Routing Policy (24min)
+- 🎓 86. Weighted Routing Policy (6min)
+- 🎓 87. Latency Routing Policy (8min)
+- 🎓 88. Failover Routing Policy (15min)
+- 🎓 89. Multivalue Answer Routing (8min)
+- 🎓 90. Summary (1min)
+- 🎓 91. Route 53 Masterclass | May 18, 2019 (1hr 41min)
+- 🎓 Quiz 5: Quiz for Section 7 (N/A)
+
+## 📚 Section 8: Identity & Access Management (IAM) (Duration: 0 / 9 | 47min)
+
+- 🎓 92. An Introduction to Identity and Access Management (IAM) (8min)
+- 🎓 93. Overview of Roles (4min)
+- 🎓 94. Creating Users (7min)
+- 🎓 95. Signing In On Behalf Of Sub Accounts (6min)
+- 🎓 96. Creating and Managing Groups (5min)
+- 🎓 97. Implementation of Roles (7min)
+- 🎓 98. Password Policy (2min)
+- 🎓 99. Enabling Multi-Factor Authentication (9min)
+- 🎓 Quiz 6: Quiz for Section 8 (N/A)
+
+## 📚 Section 9: Elastic Block Store (EBS) -- Volumes (Duration: 0 / 20 | 1hr 23min)
+
+- 🎓 100. An Introduction to Elastic Block Store(EBS) Part 1 (5min)
+- 🎓 101. An Introduction to Elastic Block Store(EBS) Part 2 (5min)
+- 🎓 102. Benefits of EBS Volumes Part 1 (7min)
+- 🎓 103. Benefits of EBS Volumes Part 2 (8min)
+- 🎓 104. Amazon EBS Volume Types (3min)
+- 🎓 105. General Purpose SSD (gp2) Volumes (7min)
+- 🎓 106. Provisioned IOPS SSD (io1) Volumes (3min)
+- 🎓 107. Throughput Optimized HDD (st1) Volumes (3min)
+- 🎓 108. Cold HDD (sc1) Volumes (4min)
+- 🎓 109. Magnetic Volumes (1min)
+- 🎓 110. Attaching EBS Volumes via AWS Management Console (2min)
+- 🎓 111. Creating EBS Volumes via Command Line Interface (CLI) (3min)
+- 🎓 112. Attaching EBS Volumes via Command Line Interface (CLI) (4min)
+- 🎓 113. Making an EBS Volume Available for Use Part 1 (3min)
+- 🎓 114. Making an EBS Volume Available for Use Part 2 (7min)
+- 🎓 115. Expanding the Storage Space of an EBS Volume on Windows (4min)
+- 🎓 116. Viewing Volume Information (3min)
+- 🎓 117. Detaching an EBS Volume from an Instance via AWS Management Console (4min)
+- 🎓 118. Detaching an EBS Volume from an Instance via Command Line Interface(CLI) (3min)
+- 🎓 119. Deleting an EBS Volume (2min)
+
+## 📚 Section 10: Elastic Block Store (EBS) -- Snapshots (Duration: 0 / 14 | 52min)
+
+- 🎓 120. An Introduction to Snapshots (6min)
+- 🎓 121. Creating Snapshots via AWS Management Console (4min)
+- 🎓 122. Creating Snapshots via Command Line Interface (CLI) (2min)
+- 🎓 123. Viewing Snapshot Information (4min)
+- 🎓 124. Creating Volumes from Snapshots via AWS Management Console (5min)
+- 🎓 125. Creating Volumes from Snapshots via Command Line Interface (CLI) (4min)
+- 🎓 126. Deleting EBS Snapshots (3min)
+- 🎓 127. Theory - Copying Snapshot (3min)
+- 🎓 128. Copying EBS Snapshot via AWS Management Console (4min)
+- 🎓 129. Copying an EBS Snapshot via Command Line Interface (CLI) (5min)
+- 🎓 130. Overview of Sharing an Amazon EBS Snapshot (3min)
+- 🎓 131. Sharing an EBS Snapshot via AWS Management Console (7min)
+- 🎓 132. Sharing an EBS Snapshot via Command Line Interface (CLI) (3min)
+- 🎓 Quiz 7: Quiz for Sections 9 and 10 (N/A)
+
+## 📚 Section 11: Simple Storage Service (S3) and Glacier (Duration: 0 / 10 | 42min)
+
+- 🎓 133. Buckets and Objects (5min)
+- 🎓 134. Creating Bucket and Uploading Objects (7min)
+- 🎓 135. Editing Permissions for S3 Bucket (7min)
+- 🎓 136. Hosting a Static Website (5min)
+- 🎓 137. Versioning (5min)
+- 🎓 138. Lifecycle (3min)
+- 🎓 139. Cross-Region Replication (6min)
+- 🎓 140. Overview of Glacier (3min)
+- 🎓 141. Creating Vault via AWS Management Console (2min)
+- 🎓 Quiz 8: Quiz for Section 11 (N/A)
+
+## 📚 Section 12: Storage Gateway and Snowball (Duration: 0 / 7 | 30min)
+
+- 🎓 142. An Introduction to Storage Gateway (4min)
+- 🎓 143. Gateway-Cached Volume Architecture (5min)
+- 🎓 144. Gateway-Stored Volume Architecture (5min)
+- 🎓 145. Gateway Virtual Tape Library (VTL) (4min)
+- 🎓 146. AWS Import/Export Snowball Part 1 (7min)
+- 🎓 147. AWS Import/Export Snowball Part 2 (5min)
+- 🎓 Quiz 9: Quiz for Section 12 (N/A)
+
+## 📚 Section 13: Database (Duration: 0 / 11 | 53min)
+
+- 🎓 148. Introduction to Relational Database Service (RDS) (2min)
+- 🎓 149. VPC and RDS Part 1 (7min)
+- 🎓 150. VPC and RDS Part 2 (8min)
+- 🎓 151. Configuring Database and EC2 Security Groups (3min)
+- 🎓 152. DB Subnet Group (6min)
+- 🎓 153. Creating a DB Instance Running the MySQL Database Engine (12min)
+- 🎓 154. Connecting to our RDS DB Instance via MySQL Workbench (4min)
+- 🎓 155. Introduction to DynamoDB (2min)
+- 🎓 156. Creating an Example Table in DynamoDB (5min)
+- 🎓 157. Overview of Redshift (6min)
+- 🎓 Quiz 10: Quiz for Section 13 (N/A)
+
+## 📚 Section 14: CloudFormation, Elastic Beanstalk and OpsWorks (Duration: 0 / 5 | 24min)
+
+- 🎓 158. An Introduction to CloudFormation (2min)
+- 🎓 159. Deploying a Load-Based Auto Scaling Architecture Using CloudFormation Sample (10min)
+- 🎓 160. Elastic Beanstalk (5min)
+- 🎓 161. OpsWorks (7min)
+- 🎓 Quiz 11: Quiz for Section 14 (N/A)
+
+## 📚 Section 15: Simple Notification Service (SNS) and Cloudwatch (Duration: 0 / 2 | 14min)
+
+- 🎓 162. Overview of SNS (4min)
+- 🎓 163. Simple Notification Service Setup and Cloudwatch (10min)
+
+## 📚 Section 16: Project 1: Hosting Web App on Amazon Web Services (Duration: 0 / 10 | 1hr 2min)
+
+- 🎓 164. Introduction (5min)
+- 🎓 165. Step 1: Create an Application Server (7min)
+- 🎓 166. Step 2: Create a Database Server (5min)
+- 🎓 167. Step 3: Deploy Your App (8min)
+- 🎓 168. Configure Drupal (5min)
+- 🎓 169. Step 4: Create a custom AMI (3min)
+- 🎓 170. Step 5: Scale and Load-Balance Your Web App (9min)
+- 🎓 171. Create Launch Configuration & Auto Scaling Group (9min)
+- 🎓 172. Step 6: Associate a Domain Name with Your Website (6min)
+- 🎓 173. Step 7: Clean Up (5min)
+
+## 📚 Section 17: Project 2: Set Up a Jenkins Build Server (Duration: 0 / 6 | 16min)
+
+- 🎓 174. Introduction (2min)
+- 🎓 175. Step 1-> Launch an EC2 Instance (4min)
+- 🎓 176. Launch Instance After Creating Security Group (1min)
+- 🎓 177. Step 2-> Install and Configure Jenkins (4min)
+- 🎓 178. Configure Jenkins After Installation (4min)
+- 🎓 179. Step6-> Clean Up (1min)
+
+## 📚 Section 18: Project 3: Deploying a Wordpress Blog on Your Instance Running Windows Server (Duration: 0 / 5 | 21min)
+
+- 🎓 180. Introduction (1min)
+- 🎓 181. Step 1: Launch an EC2 instance from the Windows Server 2012 R2 AMI (3min)
+- 🎓 182. Install Microsoft Web Platform Installer and WordPress (7min)
+- 🎓 183. Step 4: Configuring Security Keys (6min)
+- 🎓 184. Configure Site Title and Administrator | Make your WordPresss site public (5min)
+
+## 📚 Section 19: Mega Quiz (Duration: 0 / 1 | 0min)
+
+- 🎓 Quiz 12: Mega Quiz | 60 questions with detailed explanations (N/A)
+
+## 📚 Section 1: Introduction (Duration: 1 / 2 | 4min)
+
+- 🎓 1. Working Files - Download These First (1min)
+- 🎓 2. What This Course Covers (4min)
+
+## 📚 Section 2: Installing Python (Duration: 0 / 2 | 5min)
+
+
+## 📚 Section 3: Writing Your First Program - Hello, World! (Duration: 0 / 3 | 10min)
+
+
+## 📚 Section 4: Python Basic Data Types And Variables (Duration: 0 / 9 | 30min)
+
+
+## 📚 Section 5: Python Input/Output (Duration: 0 / 4 | 15min)
+
+
+## 📚 Section 6: Making Decisions - if Statements (Duration: 0 / 7 | 27min)
+
+
+## 📚 Section 7: while Loops (Duration: 0 / 9 | 44min)
+
+- 🎓 28. Introduction To while Loops (5min)
+- 🎓 29. Count-Controlled while Loops (6min)
+- 🎓 30. Event-Controlled while Loops (5min)
+- 🎓 31. Using continue (4min)
+- 🎓 32. Using break (5min)
+- 🎓 33. Working With Files - Part 1 (6min)
+- 🎓 34. Working With Files - Part 2 (5min)
+- 🎓 35. Exercise 1 (4min)
+- 🎓 36. Exercise 2 (5min)
+
+## 📚 Section 8: for Loops (Duration: 0 / 8 | 31min)
+
+- 🎓 37. Introduction To for Loops - Part 1 (4min)
+- 🎓 38. Introduction To for Loops - Part 2 (5min)
+- 🎓 39. for Loops With Lists (4min)
+- 🎓 40. for Loops With Tuples (4min)
+- 🎓 41. for Loops With Dictionaries (3min)
+- 🎓 42. for Loops With Files (4min)
+- 🎓 43. Exercise 1 (3min)
+- 🎓 44. Exercise 2 (3min)
+
+## 📚 Section 9: Iterators (Duration: 0 / 5 | 17min)
+
+- 🎓 45. Understanding Iterators (2min)
+- 🎓 46. Using iter And next (5min)
+- 🎓 47. Iterators And Dictionaries (3min)
+- 🎓 48. Other Iterators (4min)
+- 🎓 49. Exercise 1 (3min)
+
+## 📚 Section 10: List Comprehensions (Duration: 0 / 3 | 11min)
+
+- 🎓 50. Introduction To List Comprehensions (5min)
+- 🎓 51. Using List Comprehensions With Files (3min)
+- 🎓 52. Exercise 1 (3min)
+
+## 📚 Section 11: Functions (Duration: 0 / 7 | 31min)
+
+- 🎓 53. Introduction To Functions - Why (5min)
+- 🎓 54. Defining Functions (5min)
+- 🎓 55. Calling Functions (6min)
+- 🎓 56. Functions With Multiple Arguments (4min)
+- 🎓 57. Predicate Functions (3min)
+- 🎓 58. Exercise 1 (5min)
+- 🎓 59. Exercise 2 (3min)
+
+## 📚 Section 12: More On Functions (Duration: 0 / 7 | 31min)
+
+- 🎓 60. Recursive Functions - Part 1 (5min)
+- 🎓 61. Recursive Functions - Part 2 (5min)
+- 🎓 62. Function Objects (5min)
+- 🎓 63. Anonymous Functions (5min)
+- 🎓 64. Higher-Order Functions (5min)
+- 🎓 65. Exercise 1 (3min)
+- 🎓 66. Exercise 2 (4min)
+
+## 📚 Section 13: Scope (Duration: 0 / 5 | 17min)
+
+- 🎓 67. Global Scope (3min)
+- 🎓 68. Local Scope (3min)
+- 🎓 69. Nested Scope (3min)
+- 🎓 70. Exercise 1 - Part 1 (4min)
+- 🎓 71. Exercise 1 - Part 2 (3min)
+
+## 📚 Section 14: Modules (Duration: 0 / 5 | 19min)
+
+- 🎓 72. Using Built-In Modules (4min)
+- 🎓 73. User-Defined Modules - Part 1 (4min)
+- 🎓 74. User-Defined Modules - Part 2 (3min)
+- 🎓 75. Module Namespaces (4min)
+- 🎓 76. Exercise 1 (4min)
+
+## 📚 Section 15: Object-Oriented Programming - Part 1 (Duration: 0 / 6 | 26min)
+
+- 🎓 77. Abstract Data Types (4min)
+- 🎓 78. Designing A Class, Fields And Constructors (4min)
+- 🎓 79. Designing A Class, Methods (4min)
+- 🎓 80. Data Structure For Fields (4min)
+- 🎓 81. Exercise 1 (4min)
+- 🎓 82. Exercise 2 (5min)
+
+## 📚 Section 16: Object-Oriented Programming - Part 2 (Duration: 0 / 4 | 24min)
+
+- 🎓 83. Creating A Derived Class - Part 1 (7min)
+- 🎓 84. Creating A Derived Class - Part 2 (7min)
+- 🎓 85. Exercise 1 (5min)
+- 🎓 86. Exercise 2 (5min)
+
+## 📚 Section 17: Exception Handling (Duration: 0 / 5 | 18min)
+
+- 🎓 87. Exceptions Demonstrated (3min)
+- 🎓 88. Try-Except Statements (5min)
+- 🎓 89. Try-Except-Finally Statements (3min)
+- 🎓 90. The raise Statement (3min)
+- 🎓 91. Exercise 1 (5min)
+
+## 📚 Section 18: Using Data Structures (Duration: 0 / 3 | 12min)
+
+- 🎓 92. Exercise 1 - Lists (4min)
+- 🎓 93. Exercise 2 - Tuples (4min)
+- 🎓 94. Exercise 3 - Dictionaries (3min)
+
+## 📚 Section 1: Installing Python (Duration: 2 / 4 | 8min)
+
+
+## 📚 Section 2: Python 101 (Duration: 0 / 12 | 41min)
+
+- 🎓 5. My private letter to you as you start learning programming (1min)
+- 🎓 6. Two tools to take the most from this course (1min)
+- 🎓 7. The Python interactive shell (IDLE) (4min)
+- 🎓 8. Numbers and Strings in Python (5min)
+- 🎓 9. Variables in Python (6min)
+- 🎓 10. The str() method to convert to Strings (4min)
+- 🎓 11. Running a Python file from the IDLE (7min)
+- 🎓 12. Getting user input in Python (6min)
+- 🎓 13. The int() method to convert to Integers (2min)
+- 🎓 14. The format() method to simplify String formatting (7min)
+- 🎓 15. Age Program Code (1min)
+- 🎓 Quiz 1: Section 2 Final Quiz (N/A)
+
+## 📚 Section 3: Magic Numbers in Python (Duration: 0 / 11 | 54min)
+
+- 🎓 16. Lists in Python (5min)
+- 🎓 17. The for loop in Python (3min)
+- 🎓 18. Boolean expressions, True and False (5min)
+- 🎓 19. If statements in Python (5min)
+- 🎓 20. The 'in' keyword to check whether a list contains an element (5min)
+- 🎓 21. Giving the user multiple chances in our program (9min)
+- 🎓 22. Generating random integers in Python (8min)
+- 🎓 23. Defining our own methods in Python (7min)
+- 🎓 24. Returning values from our methods in Python (5min)
+- 🎓 25. Magic Numbers Code (1min)
+- 🎓 Quiz 2: Section 3 Final Quiz (N/A)
+
+## 📚 Section 4: A Lottery app (Duration: 0 / 8 | 38min)
+
+- 🎓 26. The String split() method (4min)
+- 🎓 27. List comprehension in Python (7min)
+- 🎓 28. Python Sets — what is a Set? (7min)
+- 🎓 29. Set comprehension in Python (6min)
+- 🎓 30. Creating our lottery numbers (8min)
+- 🎓 31. Calculating the lottery winnings (6min)
+- 🎓 32. Lottery App Code (1min)
+- 🎓 Quiz 3: Section 4 Final Quiz (N/A)
+
+## 📚 Section 5: More complex applications: a student registration system (Duration: 0 / 13 | 1hr 16min)
+
+- 🎓 33. Installing PyCharm, a professional Python tool (3min)
+- 🎓 34. Setting up PyCharm on Mac (2min)
+- 🎓 35. Setting up PyCharm on Windows (4min)
+- 🎓 36. Dictionaries in Python (9min)
+- 🎓 37. Advanced Dictionary usage in Python (8min)
+- 🎓 38. Methods returning dictionaries (7min)
+- 🎓 39. Appending to a list in Python (5min)
+- 🎓 40. Adding marks to our student data structure (9min)
+- 🎓 41. The sum() method in Python (8min)
+- 🎓 42. Iterating over a list and using the dictionaries inside it (6min)
+- 🎓 43. Creating the application menu (15min)
+- 🎓 44. Student Registration System Code (1min)
+- 🎓 Quiz 4: Section 5 Final Quiz (N/A)
+
+## 📚 Section 6: Object-Oriented Programming: a movie rental system (Duration: 0 / 15 | 1hr 45min)
+
+- 🎓 45. What are classes? Classes in Python (12min)
+- 🎓 46. The Movie Class (8min)
+- 🎓 47. The User Class (and the __repr__ method) (6min)
+- 🎓 48. The filter() method in Python (10min)
+- 🎓 49. More Movie operations and methods (6min)
+- 🎓 50. Writing to a file in Python (4min)
+- 🎓 51. Saving CSV files with our data (10min)
+- 🎓 52. Loading our data from CSV files (12min)
+- 🎓 53. How to use the csv module to read and write CSV files more easily (1min)
+- 🎓 54. Saving JSON files with our data (6min)
+- 🎓 55. Loading our data from JSON files (8min)
+- 🎓 56. Argument unpacking in Python (the two asterisks) (6min)
+- 🎓 57. Creating the menu for our application (15min)
+- 🎓 58. Movie Rental System Code (1min)
+- 🎓 Quiz 5: Section 6 Final Quiz (N/A)
+
+## 📚 Section 7: Introduction to PostgreSQL (Duration: 0 / 24 | 2hr 37min)
+
+- 🎓 59. Introduction to databases (13min)
+- 🎓 60. Installing PostgreSQL on Windows (4min)
+- 🎓 61. Using PostgreSQL on Windows (7min)
+- 🎓 62. Executing SQL queries on Windows (2min)
+- 🎓 63. Installing PostgreSQL on Mac (5min)
+- 🎓 64. Using PostgreSQL on Mac (9min)
+- 🎓 65. Executing SQL commands on Mac (1min)
+- 🎓 66. Using the sample data provided (3min)
+- 🎓 67. SQL: The SELECT command (8min)
+- 🎓 68. SQL: filtering with WHERE (4min)
+- 🎓 69. SQL: LIMIT for limiting the number of results (2min)
+- 🎓 70. SQL: UPDATE data in a table (6min)
+- 🎓 71. SQL: DELETE data from a table (5min)
+- 🎓 72. SQL Wildcards for filtering unknowns (5min)
+- 🎓 73. What is a JOIN? (14min)
+- 🎓 74. SQL: JOINs and JOIN examples (10min)
+- 🎓 75. SQL: GROUP BY for aggregation of data (9min)
+- 🎓 76. SQL: ORDER BY for sorting data (5min)
+- 🎓 77. SQL: CREATE TABLE (12min)
+- 🎓 78. SQL: INSERT INTO for adding data to a table (10min)
+- 🎓 79. SQL: SEQUENCE for auto-incrementing fields (7min)
+- 🎓 80. SQL: CREATE INDEX and advanced information about indexes (12min)
+- 🎓 81. SQL: DROP TABLE for deleting tables and data (6min)
+- 🎓 Quiz 6: Section 7 Final Quiz (N/A)
+
+## 📚 Section 8: Advanced PostgreSQL (Duration: 0 / 7 | 1hr 9min)
+
+- 🎓 82. SQL: VIEWs and what they are used for (19min)
+- 🎓 83. SQL: built-in functions and the HAVING construct (12min)
+- 🎓 84. Dates in SQL: an old problem (14min)
+- 🎓 85. Other data types in SQL (including JSON in PostgreSQL) (11min)
+- 🎓 86. Nested SELECT statements for complex queries (9min)
+- 🎓 87. The PostgreSQL SERIAL type (3min)
+- 🎓 Quiz 7: Section 8 Final Quiz (N/A)
+
+## 📚 Section 9: Python and PostgreSQL (Duration: 0 / 24 | 2hr 37min)
+
+
+## 📚 Section 10: Python Web and APIs (Duration: 0 / 28 | 4hr 38min)
+
+- 🎓 111. What is an API? (26min)
+- 🎓 112. Making requests in Python (12min)
+- 🎓 113. What is OAuth? (7min)
+- 🎓 114. Creating a Twitter app (4min)
+- 🎓 115. Setting up Twitter login (5min)
+- 🎓 116. Getting the OAuth request token (15min)
+- 🎓 117. More on the Python debugger—an essential tool (5min)
+- 🎓 118. Getting authorization by the user (10min)
+- 🎓 119. Getting the OAuth access token (6min)
+- 🎓 120. Performing Twitter requests: getting images (17min)
+- 🎓 121. Reusing code from the last section to save users (11min)
+- 🎓 122. Creating users in our app (8min)
+- 🎓 123. Retrieving users in our app (14min)
+- 🎓 124. Cleaning up the code—extremely important! (19min)
+- 🎓 125. Introduction to Flask and Python Web Development (16min)
+- 🎓 126. Adding a Twitter login endpoint (11min)
+- 🎓 127. Adding Twitter authorization (23min)
+- 🎓 128. Creating the user profile (9min)
+- 🎓 129. The Flask before_request decorator (9min)
+- 🎓 130. Checking if a user is already logged in (3min)
+- 🎓 131. Searching tweets and displaying them (8min)
+- 🎓 132. Searching for different things (3min)
+- 🎓 133. What is Bootstrap? (9min)
+- 🎓 134. Writing our own CSS (6min)
+- 🎓 135. Allowing users to perform custom searches (7min)
+- 🎓 136. Adding sentiment analysis with another API (16min)
+- 🎓 Quiz 9: Section 10 Final Quiz (N/A)
+- 🎓 137. Section 10: Twitter Login code (1min)
+
+## 📚 Section 11: Introduction to Git and GitHub (Duration: 0 / 16 | 1hr 10min)
+
+- 🎓 138. What is Git? (5min)
+- 🎓 139. Installing Git on Mac and Windows (7min)
+- 🎓 140. Introduction to the UNIX terminal (8min)
+- 🎓 141. The VIM text editor, a powerful terminal editor (6min)
+- 🎓 142. Dealing with files in the UNIX terminal (4min)
+- 🎓 143. What is a Git repository? (6min)
+- 🎓 144. git init — create a Git repository (4min)
+- 🎓 145. git add and git commit — staging and committing (8min)
+- 🎓 146. git log — viewing past commits (2min)
+- 🎓 147. Creating a repository on GitHub (3min)
+- 🎓 148. git remote — managing remote repositories (3min)
+- 🎓 149. Adding your SSH key to GitHub (6min)
+- 🎓 150. What is a README file? Introduction to Markdown (7min)
+- 🎓 151. git pull — pulling other's changes (3min)
+- 🎓 Quiz 10: Section 11 Final Quiz (N/A)
+- 🎓 152. Keep thinking: Section 11 (1min)
+
+## 📚 Section 12: Advanced Python (Duration: 0 / 16 | 2hr 24min)
+
+- 🎓 153. OOP: Inheritance (15min)
+- 🎓 154. OOP: Multiple Inheritance in Python (5min)
+- 🎓 155. OOP: What is composition? (4min)
+- 🎓 156. OOP: What is encapsulation? (12min)
+- 🎓 157. Introduction to Exceptions in Python (11min)
+- 🎓 158. Creating our own Exceptions (7min)
+- 🎓 159. Some of the available built-in Exceptions (6min)
+- 🎓 160. Python built-in methods (21min)
+- 🎓 161. Assertions in Python (8min)
+- 🎓 162. Lambda expressions in Python (8min)
+- 🎓 163. More uses of lambda expressions (10min)
+- 🎓 164. Lambda expressions in the wild (17min)
+- 🎓 165. Introduction to unit testing with unittest (20min)
+- 🎓 Quiz 11: Section 12 Final Quiz (N/A)
+- 🎓 166. Section 12: Advanced Python code (1min)
+- 🎓 167. Keep thinking: Section 12 (1min)
+
+## 📚 Section 13: Data Structures and Algorithms (Duration: 0 / 18 | 1hr 53min)
+
+- 🎓 168. What are data structures? (6min)
+- 🎓 169. What is a Linked List? (9min)
+- 🎓 170. Introduction to Linked List Assignment (10min)
+- 🎓 171. Assignment: Linked List (1min)
+- 🎓 172. Programming our own Linked List in Python (9min)
+- 🎓 173. Creating a Queue (6min)
+- 🎓 174. Introduction to Queue Assignment (11min)
+- 🎓 175. Assignment: Queue (2min)
+- 🎓 176. Programming our own Queue in Python (15min)
+- 🎓 177. Creating a Stack (4min)
+- 🎓 178. Introduction to Stack Assignment (5min)
+- 🎓 179. Assignment: Stack (1min)
+- 🎓 180. Programming our own Stack in Python (7min)
+- 🎓 181. Creating a Binary Tree (8min)
+- 🎓 182. Introduction to Binary Tree Assignment (8min)
+- 🎓 183. Assignment: Binary Tree (1min)
+- 🎓 184. Programming our own Binary Tree in Python (9min)
+- 🎓 Quiz 12: Section 13 Final Quiz (N/A)
+
+## 📚 Section 14: Conclusion (Duration: 0 / 2 | 1min)
+
+- 🎓 185. Next steps (1min)
+- 🎓 186. Bonus lecture (1min)
+
+## 📚 Section 1: Introduction (Duration: 2 / 2 | 2min)
+
+
+## 📚 Section 2: Setting up our engine layout (Duration: 5 / 5 | 19min)
+
+
+## 📚 Section 3: Programming our engine! (Duration: 14 / 14 | 1hr 24min)
+
+
+## 📚 Section 4: Conclusion + Bonus (Duration: 3 / 3 | 3min)
+
+
+## 📚 Section 5: Updates! (Duration: 11 / 11 | 48min)
+
+- 🎓 23. BONUS: Import from spritestrip (2min)
+- 🎓 24. BONUS: Improving the screenshake function (3min)
+- 🎓 25. BONUS: Adding our muzzle flash! (3min)
+- 🎓 26. BONUS: Splitting up our event sheets (2min)
+- 🎓 27. BONUS: Creating a new layout (9min)
+- 🎓 28. BONUS: Improving our camera (4min)
+- 🎓 29. BONUS: Adding impact effects (7min)
+- 🎓 30. BONUS: Adding bullet shells (6min)
+- 🎓 31. BONUS: Adding a HUD (4min)
+- 🎓 32. BONUS: Adding ammo pickups (9min)
+- 🎓 Quiz 3: YOUR FEEDBACK | Quiz (N/A)
+
+## 📚 Section 1: Introduction (Duration: 0 / 1 | 11min)
+
+- 🎓 1. Introduction (11min)
+
+## 📚 Section 2: Introduction to AWS (Duration: 0 / 2 | 30min)
+
+- 🎓 2. AWS_Overview (14min)
+- 🎓 3. AWSOverviewP2 (16min)
+
+## 📚 Section 3: AWS System Administration (Duration: 0 / 2 | 31min)
+
+- 🎓 4. AWS System Administration (16min)
+- 🎓 5. Set up of the SDK (15min)
+
+## 📚 Section 4: AWS Infrastructure As A Service IAAS (Duration: 0 / 2 | 32min)
+
+- 🎓 6. EC2 Virtual Servers (16min)
+- 🎓 7. Security group, Key pair and setting up the first EC2 box (16min)
+
+## 📚 Section 5: AWS Platform As A Service PAAS (Duration: 0 / 2 | 31min)
+
+- 🎓 8. Set up a DynamoDB Service (17min)
+- 🎓 9. Set up a S3 Service (15min)
+
+## 📚 Section 6: AWS Network As A Service (Duration: 0 / 2 | 32min)
+
+- 🎓 10. AWS Cloudfront Application (16min)
+- 🎓 11. Load Balancing and Provisioning (16min)
+
+## 📚 Section 7: AWS Simple Services (Duration: 0 / 3 | 38min)
+
+- 🎓 12. Simple Services (13min)
+- 🎓 13. Simple Services Email Application (14min)
+- 🎓 14. 13.Simple Services Queue Service Application (11min)
+
+## 📚 Section 8: Summary (Duration: 0 / 2 | 3min)
+
+- 🎓 15. 15.Summary (3min)
+- 🎓 16. Bonus Lecture: More Interesting Stuff, Offers and Discounts (1min)
