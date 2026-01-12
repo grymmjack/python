@@ -1,0 +1,157 @@
+name: Release test1 (PyInstaller)
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  APP_NAME: test1
+  APP_DIR: qt-apps/test1
+
+jobs:
+  build:
+    name: Build ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller PySide6
+
+      - name: Clean previous builds
+        working-directory: ${{ env.APP_DIR }}
+        shell: bash
+        run: |
+          rm -rf build dist
+
+      # ---- macOS icon generation (.icns) ----
+      - name: Generate macOS icon (.icns)
+        if: runner.os == 'macOS'
+        working-directory: ${{ env.APP_DIR }}
+        shell: bash
+        run: |
+          test -f assets/icon.png
+
+          mkdir -p /tmp/icon.iconset
+          sips -z 16 16     assets/icon.png --out /tmp/icon.iconset/icon_16x16.png
+          sips -z 32 32     assets/icon.png --out /tmp/icon.iconset/icon_16x16@2x.png
+          sips -z 32 32     assets/icon.png --out /tmp/icon.iconset/icon_32x32.png
+          sips -z 64 64     assets/icon.png --out /tmp/icon.iconset/icon_32x32@2x.png
+          sips -z 128 128   assets/icon.png --out /tmp/icon.iconset/icon_128x128.png
+          sips -z 256 256   assets/icon.png --out /tmp/icon.iconset/icon_128x128@2x.png
+          sips -z 256 256   assets/icon.png --out /tmp/icon.iconset/icon_256x256.png
+          sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_256x256@2x.png
+          sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_512x512.png
+          sips -z 1024 1024 assets/icon.png --out /tmp/icon.iconset/icon_512x512@2x.png
+
+          iconutil -c icns /tmp/icon.iconset -o assets/icon.icns
+          ls -la assets/icon.icns
+
+      # ---- Build ----
+      - name: Build with PyInstaller
+        working-directory: ${{ env.APP_DIR }}
+        shell: bash
+        run: |
+          test -f test1.spec
+          pyinstaller --noconfirm --clean test1.spec
+
+      # ---- Package output ----
+      - name: Package release archive
+        working-directory: ${{ env.APP_DIR }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, re, zipfile, pathlib, platform
+
+          APP = os.environ["APP_NAME"]
+          tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
+
+          m = re.match(r"^v(.+)$", tag)
+          ver = m.group(1) if m else tag
+
+          runner = os.environ["RUNNER_OS"].lower()
+          if runner.startswith("windows"):
+              os_name = "windows"
+          elif runner.startswith("mac"):
+              os_name = "macos"
+          else:
+              os_name = "linux"
+
+          arch = platform.machine().lower()
+          if arch in ("x86_64", "amd64"):
+              arch = "x64"
+          elif arch in ("aarch64", "arm64"):
+              arch = "arm64"
+
+          dist = pathlib.Path("dist")
+          out = pathlib.Path(f"{APP}_{ver}_{os_name}_{arch}.zip")
+
+          def add(z, p, base):
+              if p.is_dir():
+                  for f in p.rglob("*"):
+                      if f.is_file():
+                          z.write(f, f"{base}/{f.relative_to(p)}")
+              else:
+                  z.write(p, f"{base}/{p.name}")
+
+          targets = []
+          app_bundle = dist / f"{APP}.app"
+          if app_bundle.exists():
+              targets = [app_bundle]
+          else:
+              exe = dist / (APP + (".exe" if os_name == "windows" else ""))
+              targets = [exe]
+
+          with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+              for t in targets:
+                  add(z, t, "dist")
+
+          print(f"Created {out}")
+          PY
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test1-${{ runner.os }}
+          path: |
+            ${{ env.APP_DIR }}/test1_*.zip
+
+  release:
+    name: Publish GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/**/test1_*.zip
+          generate_release_notes: true
+
