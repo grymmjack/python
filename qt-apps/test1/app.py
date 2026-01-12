@@ -15,14 +15,23 @@ from PySide6.QtGui import QIcon
 
 def resource_path(*parts: str) -> str:
     """
-    Get absolute path to a resource for dev and for PyInstaller onefile/onedir.
+    Absolute path to bundled resources.
+
+    - Dev: relative to this file's directory
+    - PyInstaller Win/Linux: sys._MEIPASS
+    - PyInstaller macOS .app: Contents/Resources
     """
-    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-        base = Path(sys._MEIPASS)  # PyInstaller temp dir
+    if getattr(sys, "frozen", False):
+        if sys.platform == "darwin":
+            # sys.executable = .../test1.app/Contents/MacOS/test1
+            contents = Path(sys.executable).resolve().parents[1]
+            base = contents / "Resources"
+        else:
+            base = Path(getattr(sys, "_MEIPASS"))
     else:
         base = Path(__file__).resolve().parent
-    return str(base.joinpath(*parts))
 
+    return str(base.joinpath(*parts))
 
 def load_ui_mainwindow(path: str) -> QMainWindow:
     f = QFile(path)

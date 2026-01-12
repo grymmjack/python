@@ -21,17 +21,27 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - os: ubuntu-latest
-            python-version: "3.12"
-          - os: windows-latest
-            python-version: "3.12"
-          - os: macos-latest
-            python-version: "3.11"
-      
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.12"]
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Debug paths
+        shell: bash
+        run: |
+          echo "Repo root:"
+          pwd
+          ls -la
+          echo ""
+          echo "App dir:"
+          ls -la "${APP_DIR}"
+          echo ""
+          echo "Spec / assets:"
+          ls -la "${APP_DIR}/test1.spec"
+          ls -la "${APP_DIR}/assets" || true
+          ls -la "${APP_DIR}/ui" || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,25 +49,25 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
 
-      - name: Install build dependencies
+      - name: Install dependencies
+        shell: bash
         run: |
           python -m pip install --upgrade pip
           pip install pyinstaller PySide6
 
-      - name: Clean previous builds
+      - name: Clean build output
         working-directory: ${{ env.APP_DIR }}
         shell: bash
         run: |
           rm -rf build dist
 
-      # ---- macOS icon generation (.icns) ----
+      # macOS-only: generate icon.icns from assets/icon.png for the .app bundle
       - name: Generate macOS icon (.icns)
         if: runner.os == 'macOS'
         working-directory: ${{ env.APP_DIR }}
         shell: bash
         run: |
           test -f assets/icon.png
-
           mkdir -p /tmp/icon.iconset
           sips -z 16 16     assets/icon.png --out /tmp/icon.iconset/icon_16x16.png
           sips -z 32 32     assets/icon.png --out /tmp/icon.iconset/icon_16x16@2x.png
@@ -69,20 +79,23 @@ jobs:
           sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_256x256@2x.png
           sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_512x512.png
           sips -z 1024 1024 assets/icon.png --out /tmp/icon.iconset/icon_512x512@2x.png
-
           iconutil -c icns /tmp/icon.iconset -o assets/icon.icns
           ls -la assets/icon.icns
 
-      # ---- Build ----
-      - name: Build with PyInstaller
+      - name: Build with PyInstaller (spec)
         working-directory: ${{ env.APP_DIR }}
         shell: bash
         run: |
           test -f test1.spec
           pyinstaller --noconfirm --clean test1.spec
 
-      # ---- Package output ----
-      - name: Package release archive
+      # -----------------------
+      # Packaging
+      # -----------------------
+
+      # Windows + Linux: ZIP the onedir folder dist/test1/ at ZIP root as test1/...
+      - name: Package (Windows/Linux) as zip
+        if: runner.os != 'macOS'
         working-directory: ${{ env.APP_DIR }}
         shell: bash
         run: |
@@ -91,15 +104,12 @@ jobs:
 
           APP = os.environ["APP_NAME"]
           tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
-
           m = re.match(r"^v(.+)$", tag)
           ver = m.group(1) if m else tag
 
           runner = os.environ["RUNNER_OS"].lower()
           if runner.startswith("windows"):
               os_name = "windows"
-          elif runner.startswith("mac"):
-              os_name = "macos"
           else:
               os_name = "linux"
 
@@ -109,31 +119,59 @@ jobs:
           elif arch in ("aarch64", "arm64"):
               arch = "arm64"
 
-          dist = pathlib.Path("dist")
+          dist_dir = pathlib.Path("dist") / APP
+          if not dist_dir.exists() or not dist_dir.is_dir():
+              raise SystemExit(f"Expected onedir folder not found: {dist_dir}")
+
           out = pathlib.Path(f"{APP}_{ver}_{os_name}_{arch}.zip")
 
-          def zip_dir(zf: zipfile.ZipFile, folder: pathlib.Path, arcbase: str):
-              for p in folder.rglob("*"):
-                  if p.is_file():
-                      zf.write(p, f"{arcbase}/{p.relative_to(folder)}")
-
           with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as z:
-              app_bundle = dist / f"{APP}.app"
-              onedir = dist / APP
-
-              if app_bundle.exists():
-                  # put test1.app at ZIP root
-                  zip_dir(z, app_bundle, f"{APP}.app")
-              elif onedir.exists() and onedir.is_dir():
-                  # put test1/ at ZIP root
-                  zip_dir(z, onedir, APP)
-              else:
-                  raise SystemExit(f"Expected dist output not found: {app_bundle} or {onedir}")
+              for p in dist_dir.rglob("*"):
+                  if p.is_file():
+                      z.write(p, f"{APP}/{p.relative_to(dist_dir)}")
 
           print(f"Created {out}")
           PY
- 
-      - name: Upload artifact
+          ls -la test1_*.zip
+
+      # macOS: ZIP the .app using ditto (preserves symlinks/metadata properly)
+      - name: Package (macOS) .app using ditto
+        if: runner.os == 'macOS'
+        working-directory: ${{ env.APP_DIR }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, re, platform
+          APP = os.environ["APP_NAME"]
+          tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
+          m = re.match(r"^v(.+)$", tag)
+          ver = m.group(1) if m else tag
+          arch = platform.machine().lower()
+          if arch in ("x86_64","amd64"): arch = "x64"
+          elif arch in ("aarch64","arm64"): arch = "arm64"
+          print(f"{APP}_{ver}_macos_{arch}.zip")
+          PY
+          OUT="$(python - <<'PY'
+          import os, re, platform
+          APP = os.environ["APP_NAME"]
+          tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
+          m = re.match(r"^v(.+)$", tag)
+          ver = m.group(1) if m else tag
+          arch = platform.machine().lower()
+          if arch in ("x86_64","amd64"): arch = "x64"
+          elif arch in ("aarch64","arm64"): arch = "arm64"
+          print(f"{APP}_{ver}_macos_{arch}.zip")
+          PY
+          )"
+
+          test -d "dist/${APP}.app"
+
+          # Proper way to zip .app bundles on macOS
+          ditto -c -k --sequesterRsrc --keepParent "dist/${APP}.app" "${OUT}"
+
+          ls -la "${OUT}"
+
+      - name: Upload build artifact (for Release job)
         uses: actions/upload-artifact@v4
         with:
           name: test1-${{ runner.os }}
@@ -146,12 +184,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download artifacts
+      - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
 
-      - name: Create GitHub Release
+      - name: Create GitHub Release + upload assets
         uses: softprops/action-gh-release@v2
         with:
           files: |
