@@ -20,13 +20,14 @@ jobs:
 
     strategy:
       fail-fast: false
-      include:
-        - os: ubuntu-latest
-          python-version: "3.12"
-        - os: windows-latest
-          python-version: "3.12"
-        - os: macos-latest
-          python-version: "3.11"
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python-version: "3.12"
+          - os: windows-latest
+            python-version: "3.12"
+          - os: macos-latest
+            python-version: "3.11"
       
     steps:
       - name: Checkout repository
