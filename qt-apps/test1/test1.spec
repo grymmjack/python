@@ -2,8 +2,8 @@
 
 import sys
 import sysconfig
-
 from pathlib import Path
+
 from PyInstaller.utils.hooks import collect_submodules
 
 block_cipher = None
@@ -18,16 +18,14 @@ datas = [
 hiddenimports = collect_submodules("PySide6")
 
 # --- Force-include Python stdlib extension modules on macOS ---
+# Key: place them at top-level (".") so they are importable during earliest bootstrap.
 extra_binaries = []
-
 if sys.platform == "darwin":
     stdlib = Path(sysconfig.get_path("stdlib"))
     lib_dynload = stdlib / "lib-dynload"
     if lib_dynload.exists():
-        # Include all compiled stdlib extension modules (e.g. _struct, _ssl, _hashlib, etc.)
         for p in lib_dynload.glob("*.so"):
-            extra_binaries.append((str(p), "lib-dynload"))
-
+            extra_binaries.append((str(p), "."))  # <-- IMPORTANT (not "lib-dynload")
 
 a = Analysis(
     ["app.py"],
@@ -37,7 +35,7 @@ a = Analysis(
     hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=[str(project_dir / "rthooks" / "rthook-macos-libdynload.py")],
+    runtime_hooks=[],  # <-- remove runtime hook; too late for this failure
     excludes=[],
     noarchive=False,
     optimize=0,
@@ -46,7 +44,6 @@ a = Analysis(
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 if sys.platform == "darwin":
-    # macOS: .app bundle
     exe = EXE(
         pyz,
         a.scripts,
@@ -79,7 +76,6 @@ if sys.platform == "darwin":
     )
 
 elif sys.platform.startswith("win"):
-    # Windows: onedir (dist/test1/*)
     exe = EXE(
         pyz,
         a.scripts,
@@ -106,7 +102,6 @@ elif sys.platform.startswith("win"):
     )
 
 else:
-    # Linux: onedir (dist/test1/*)
     exe = EXE(
         pyz,
         a.scripts,
