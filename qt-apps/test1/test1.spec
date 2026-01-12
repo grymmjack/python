@@ -1,6 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import sys
+import sysconfig
+
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_submodules
 
@@ -15,15 +17,27 @@ datas = [
 
 hiddenimports = collect_submodules("PySide6")
 
+# --- Force-include Python stdlib extension modules on macOS ---
+extra_binaries = []
+
+if sys.platform == "darwin":
+    stdlib = Path(sysconfig.get_path("stdlib"))
+    lib_dynload = stdlib / "lib-dynload"
+    if lib_dynload.exists():
+        # Include all compiled stdlib extension modules (e.g. _struct, _ssl, _hashlib, etc.)
+        for p in lib_dynload.glob("*.so"):
+            extra_binaries.append((str(p), "lib-dynload"))
+
+
 a = Analysis(
     ["app.py"],
     pathex=[str(project_dir)],
-    binaries=[],
+    binaries=extra_binaries,
     datas=datas,
     hiddenimports=hiddenimports,
     hookspath=[],
     hooksconfig={},
-    runtime_hooks=[],
+    runtime_hooks=[str(project_dir / "rthooks" / "rthook-macos-libdynload.py")],
     excludes=[],
     noarchive=False,
     optimize=0,
