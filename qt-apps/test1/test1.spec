@@ -6,10 +6,12 @@ from PyInstaller.utils.hooks import collect_submodules
 
 block_cipher = None
 
-project_dir = Path(__file__).resolve().parent
+# PyInstaller may exec() this file without defining __file__.
+# Since we run from qt-apps/test1 as CWD, anchor paths to CWD.
+project_dir = Path.cwd()
+
 app_name = "test1"
 
-# Bundle your UI + a runtime icon png (for app.setWindowIcon)
 datas = [
     (str(project_dir / "ui" / "main_window.ui"), "ui"),
     (str(project_dir / "assets" / "icon.png"), "assets"),
@@ -34,7 +36,6 @@ a = Analysis(
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 if sys.platform == "darwin":
-    # macOS: build into dist/test1.app
     exe = EXE(
         pyz,
         a.scripts,
@@ -48,9 +49,6 @@ if sys.platform == "darwin":
         console=False,
         disable_windowed_traceback=False,
         argv_emulation=True,
-        target_arch=None,
-        codesign_identity=None,
-        entitlements_file=None,
     )
 
     coll = COLLECT(
@@ -70,7 +68,6 @@ if sys.platform == "darwin":
     )
 
 elif sys.platform.startswith("win"):
-    # Windows: onefile dist/test1.exe with embedded .ico
     exe = EXE(
         pyz,
         a.scripts,
@@ -83,19 +80,12 @@ elif sys.platform.startswith("win"):
         bootloader_ignore_signals=False,
         strip=False,
         upx=True,
-        upx_exclude=[],
-        runtime_tmpdir=None,
         console=False,
         disable_windowed_traceback=False,
-        argv_emulation=False,
-        target_arch=None,
-        codesign_identity=None,
-        entitlements_file=None,
         icon=str(project_dir / "assets" / "icon.ico"),
     )
 
 else:
-    # Linux: onefile dist/test1
     exe = EXE(
         pyz,
         a.scripts,
@@ -108,13 +98,7 @@ else:
         bootloader_ignore_signals=False,
         strip=False,
         upx=True,
-        upx_exclude=[],
-        runtime_tmpdir=None,
         console=False,
         disable_windowed_traceback=False,
-        argv_emulation=False,
-        target_arch=None,
-        codesign_identity=None,
-        entitlements_file=None,
     )
 
