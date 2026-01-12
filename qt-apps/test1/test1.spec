@@ -5,11 +5,7 @@ from pathlib import Path
 from PyInstaller.utils.hooks import collect_submodules
 
 block_cipher = None
-
-# PyInstaller may exec() this file without defining __file__.
-# Since we run from qt-apps/test1 as CWD, anchor paths to CWD.
 project_dir = Path.cwd()
-
 app_name = "test1"
 
 datas = [
@@ -36,6 +32,7 @@ a = Analysis(
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 if sys.platform == "darwin":
+    # macOS: .app bundle
     exe = EXE(
         pyz,
         a.scripts,
@@ -68,13 +65,12 @@ if sys.platform == "darwin":
     )
 
 elif sys.platform.startswith("win"):
+    # Windows: onedir (dist/test1/*)
     exe = EXE(
         pyz,
         a.scripts,
-        a.binaries,
-        a.zipfiles,
-        a.datas,
         [],
+        exclude_binaries=True,
         name=app_name,
         debug=False,
         bootloader_ignore_signals=False,
@@ -85,14 +81,23 @@ elif sys.platform.startswith("win"):
         icon=str(project_dir / "assets" / "icon.ico"),
     )
 
-else:
-    exe = EXE(
-        pyz,
-        a.scripts,
+    coll = COLLECT(
+        exe,
         a.binaries,
         a.zipfiles,
         a.datas,
+        strip=False,
+        upx=True,
+        name=app_name,
+    )
+
+else:
+    # Linux: onedir (dist/test1/*)
+    exe = EXE(
+        pyz,
+        a.scripts,
         [],
+        exclude_binaries=True,
         name=app_name,
         debug=False,
         bootloader_ignore_signals=False,
@@ -100,5 +105,15 @@ else:
         upx=True,
         console=False,
         disable_windowed_traceback=False,
+    )
+
+    coll = COLLECT(
+        exe,
+        a.binaries,
+        a.zipfiles,
+        a.datas,
+        strip=False,
+        upx=True,
+        name=app_name,
     )
 

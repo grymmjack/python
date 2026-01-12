@@ -107,29 +107,27 @@ jobs:
           dist = pathlib.Path("dist")
           out = pathlib.Path(f"{APP}_{ver}_{os_name}_{arch}.zip")
 
-          def add(z, p, base):
-              if p.is_dir():
-                  for f in p.rglob("*"):
-                      if f.is_file():
-                          z.write(f, f"{base}/{f.relative_to(p)}")
+          def zip_dir(zf: zipfile.ZipFile, folder: pathlib.Path, arcbase: str):
+              for p in folder.rglob("*"):
+                  if p.is_file():
+                      zf.write(p, f"{arcbase}/{p.relative_to(folder)}")
+
+          with zipfile.ZipFile(out, "w", compression=zipfile.ZIP_DEFLATED) as z:
+              app_bundle = dist / f"{APP}.app"
+              onedir = dist / APP
+
+              if app_bundle.exists():
+                  # put test1.app at ZIP root
+                  zip_dir(z, app_bundle, f"{APP}.app")
+              elif onedir.exists() and onedir.is_dir():
+                  # put test1/ at ZIP root
+                  zip_dir(z, onedir, APP)
               else:
-                  z.write(p, f"{base}/{p.name}")
-
-          targets = []
-          app_bundle = dist / f"{APP}.app"
-          if app_bundle.exists():
-              targets = [app_bundle]
-          else:
-              exe = dist / (APP + (".exe" if os_name == "windows" else ""))
-              targets = [exe]
-
-          with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
-              for t in targets:
-                  add(z, t, "dist")
+                  raise SystemExit(f"Expected dist output not found: {app_bundle} or {onedir}")
 
           print(f"Created {out}")
           PY
-
+ 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
