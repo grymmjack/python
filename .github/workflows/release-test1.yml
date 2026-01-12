@@ -135,22 +135,17 @@ jobs:
           ls -la test1_*.zip
 
       # macOS: ZIP the .app using ditto (preserves symlinks/metadata properly)
-      - name: Package (macOS) .app using ditto
+      - name: Package macOS (.app) with ditto
         if: runner.os == 'macOS'
         working-directory: ${{ env.APP_DIR }}
         shell: bash
         run: |
-          python - <<'PY'
-          import os, re, platform
-          APP = os.environ["APP_NAME"]
-          tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
-          m = re.match(r"^v(.+)$", tag)
-          ver = m.group(1) if m else tag
-          arch = platform.machine().lower()
-          if arch in ("x86_64","amd64"): arch = "x64"
-          elif arch in ("aarch64","arm64"): arch = "arm64"
-          print(f"{APP}_{ver}_macos_{arch}.zip")
-          PY
+          set -euo pipefail
+
+          echo "=== dist contents ==="
+          ls -la dist || true
+          find dist -maxdepth 2 -print || true
+
           OUT="$(python - <<'PY'
           import os, re, platform
           APP = os.environ["APP_NAME"]
@@ -164,11 +159,17 @@ jobs:
           PY
           )"
 
-          test -d "dist/${APP}.app"
+          # Find the .app bundle (don’t assume name/path)
+          APP_BUNDLE="$(find dist -maxdepth 1 -name "*.app" -print -quit || true)"
 
-          # Proper way to zip .app bundles on macOS
-          ditto -c -k --sequesterRsrc --keepParent "dist/${APP}.app" "${OUT}"
+          if [[ -z "${APP_BUNDLE}" ]]; then
+            echo "ERROR: No .app found in dist/. PyInstaller did not produce an app bundle."
+            echo "Hint: ensure your spec creates a BUNDLE(...) for sys.platform == 'darwin'."
+            exit 1
+          fi
 
+          echo "Using app bundle: ${APP_BUNDLE}"
+          ditto -c -k --sequesterRsrc --keepParent "${APP_BUNDLE}" "${OUT}"
           ls -la "${OUT}"
 
       - name: Upload build artifact (for Release job)
