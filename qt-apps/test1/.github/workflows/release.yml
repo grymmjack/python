@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  APP_NAME: test1
+  APP_DIR: qt-apps/test1
+
 jobs:
   build:
     name: Build ${{ matrix.os }}
@@ -23,6 +27,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Debug repo contents
+        shell: bash
+        run: |
+          echo "Repo root:"
+          ls -la
+          echo ""
+          echo "APP_DIR:"
+          ls -la "${APP_DIR}" || true
+          echo ""
+          find "${APP_DIR}" -maxdepth 3 -type f \( -name "${APP_NAME}.spec" -o -name "icon.png" -o -name "main_window.ui" \) -print || true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -36,14 +51,18 @@ jobs:
 
       - name: Clean build output
         shell: bash
+        working-directory: ${{ env.APP_DIR }}
         run: |
           rm -rf build dist
 
-      # ✅ macOS runners have `sips` + `iconutil`. Generate icon.icns here.
       - name: Generate macOS .icns
         if: runner.os == 'macOS'
         shell: bash
+        working-directory: ${{ env.APP_DIR }}
         run: |
+          test -f assets/icon.png
+          file assets/icon.png
+
           mkdir -p /tmp/icon.iconset
           sips -z 16 16     assets/icon.png --out /tmp/icon.iconset/icon_16x16.png
           sips -z 32 32     assets/icon.png --out /tmp/icon.iconset/icon_16x16@2x.png
@@ -55,20 +74,25 @@ jobs:
           sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_256x256@2x.png
           sips -z 512 512   assets/icon.png --out /tmp/icon.iconset/icon_512x512.png
           sips -z 1024 1024 assets/icon.png --out /tmp/icon.iconset/icon_512x512@2x.png
+
           iconutil -c icns /tmp/icon.iconset -o assets/icon.icns
           ls -la assets/icon.icns
 
       - name: Build (spec)
+        shell: bash
+        working-directory: ${{ env.APP_DIR }}
         run: |
-          pyinstaller --noconfirm --clean test1.spec
+          test -f "${APP_NAME}.spec"
+          pyinstaller --noconfirm --clean "${APP_NAME}.spec"
 
       - name: Package release asset
         shell: bash
+        working-directory: ${{ env.APP_DIR }}
         run: |
           python - <<'PY'
           import os, re, zipfile, pathlib, platform
 
-          APP = "test1"
+          APP = os.environ["APP_NAME"]
           tag = os.environ.get("GITHUB_REF_NAME", "v0.0.0")
 
           m = re.match(r"^v(\d+\.\d+\.\d+.*)$", tag)
@@ -115,14 +139,15 @@ jobs:
               for t in targets:
                   add_path(zf, t, "dist")
 
-          print(f"Created {out_path}")
+          print(f"Created {out_path.resolve()}")
           PY
 
       - name: Upload build artifact (for Release job)
         uses: actions/upload-artifact@v4
         with:
           name: release-${{ runner.os }}
-          path: test1_*.zip
+          path: |
+            ${{ env.APP_DIR }}/${{ env.APP_NAME }}_*.zip
 
   release:
     name: Create GitHub Release + upload assets
