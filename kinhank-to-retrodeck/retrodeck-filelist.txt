@@ -1,0 +1,3227 @@
+.
+├── backups
+│   ├── bios
+│   ├── cheats
+│   └── mods
+├── bios
+│   ├── cemu
+│   │   └── usr
+│   │       └── save -> /home/grymmjack/retrodeck/saves/wiiu/cemu
+│   ├── Databases
+│   ├── dc
+│   │   └── textures -> /home/grymmjack/retrodeck/texture_packs/retroarch-core/Flycast/textures
+│   ├── fbneo
+│   │   ├── blend -> /home/grymmjack/retrodeck/shaders/retroarch-core/fbneo/blend
+│   │   ├── cheats -> /home/grymmjack/retrodeck/cheats/retroarch-core/fbneo
+│   │   ├── ips -> /home/grymmjack/retrodeck/mods/retroarch-core/fbneo/ips
+│   │   ├── patched -> /home/grymmjack/retrodeck/mods/retroarch-core/fbneo/patched
+│   │   ├── romdata -> /home/grymmjack/retrodeck/mods/retroarch-core/fbneo/romdata
+│   │   └── samples
+│   ├── gzdoom
+│   ├── HdPacks -> /home/grymmjack/retrodeck/texture_packs/retroarch-core/Mesen/HdPacks
+│   ├── Machines
+│   │   ├── COL - Bit Corporation Dina
+│   │   ├── COL - ColecoVision
+│   │   ├── COL - ColecoVision with Opcode Memory Extension
+│   │   ├── COL - Spectravideo SVI-603 Coleco
+│   │   ├── Forte II Games - Pesadelo
+│   │   ├── MSX
+│   │   ├── MSX2
+│   │   ├── MSX2+
+│   │   ├── MSX2 - Al Alamiah AX-350
+│   │   ├── MSX2 - Al Alamiah AX-370
+│   │   ├── MSX2 - Arabic
+│   │   ├── MSX2 - Brazilian
+│   │   ├── MSX2+ - Brazilian
+│   │   ├── MSX2 - C-BIOS
+│   │   ├── MSX2+ - C-BIOS
+│   │   ├── MSX2+ - Ciel Expert 3 IDE
+│   │   ├── MSX2+ - Ciel Expert 3 Turbo
+│   │   ├── MSX2 - Daewoo CPC-300
+│   │   ├── MSX2 - Daewoo CPC-300E
+│   │   ├── MSX2 - Daewoo CPC-400
+│   │   ├── MSX2 - Daewoo CPC-400S
+│   │   ├── MSX2 - Estonian
+│   │   ├── MSX2+ - European
+│   │   ├── MSX2 - French
+│   │   ├── MSX2 - German
+│   │   ├── MSX2 - Gradiente Expert 2.0
+│   │   ├── MSX2+ - Gradiente Expert AC88+
+│   │   ├── MSX2+ - Gradiente Expert DDX+
+│   │   ├── MSX2 - Japanese
+│   │   ├── MSX2 - Korean
+│   │   ├── MSX2+ - MSXPLAYer 2003
+│   │   ├── MSX2 - National FS-4500
+│   │   ├── MSX2 - National FS-4600
+│   │   ├── MSX2 - National FS-4700
+│   │   ├── MSX2 - National FS-5000
+│   │   ├── MSX2 - National FS-5500F1
+│   │   ├── MSX2 - National FS-5500F2
+│   │   ├── MSX2 - Only PSG
+│   │   ├── MSX2 - Panasonic FS-A1
+│   │   ├── MSX2 - Panasonic FS-A1 (a)
+│   │   ├── MSX2 - Panasonic FS-A1F
+│   │   ├── MSX2 - Panasonic FS-A1FM
+│   │   ├── MSX2+ - Panasonic FS-A1FX
+│   │   ├── MSX2 - Panasonic FS-A1MK2
+│   │   ├── MSX2+ - Panasonic FS-A1WSX
+│   │   ├── MSX2+ - Panasonic FS-A1WX
+│   │   ├── MSX2+ - Panasonic FS-A1WX (a)
+│   │   ├── MSX2 - Philips NMS-8220
+│   │   ├── MSX2 - Philips NMS-8220 (a)
+│   │   ├── MSX2 - Philips NMS-8245
+│   │   ├── MSX2 - Philips NMS-8245F
+│   │   ├── MSX2 - Philips NMS-8250
+│   │   ├── MSX2 - Philips NMS-8255
+│   │   ├── MSX2 - Philips NMS-8280
+│   │   ├── MSX2 - Philips NMS-8280G
+│   │   ├── MSX2 - Philips VG-8230
+│   │   ├── MSX2 - Philips VG-8235
+│   │   ├── MSX2 - Philips VG-8235F
+│   │   ├── MSX2 - Philips VG-8240
+│   │   ├── MSX2 - Russian
+│   │   ├── MSX2 - Sanyo Wavy MPC-25FD
+│   │   ├── MSX2 - Sanyo Wavy PHC-23
+│   │   ├── MSX2+ - Sanyo Wavy PHC-35J
+│   │   ├── MSX2+ - Sanyo Wavy PHC-70FD1
+│   │   ├── MSX2+ - Sanyo Wavy PHC-70FD2
+│   │   ├── MSX2 - Sharp Epcom HotBit 2.0
+│   │   ├── MSX2 - Sony HB-F1
+│   │   ├── MSX2 - Sony HB-F1II
+│   │   ├── MSX2 - Sony HB-F1XD
+│   │   ├── MSX2+ - Sony HB-F1XDJ
+│   │   ├── MSX2 - Sony HB-F1XDMK2
+│   │   ├── MSX2+ - Sony HB-F1XV
+│   │   ├── MSX2 - Sony HB-F500
+│   │   ├── MSX2 - Sony HB-F500P
+│   │   ├── MSX2 - Sony HB-F700D
+│   │   ├── MSX2 - Sony HB-F700F
+│   │   ├── MSX2 - Sony HB-F700P
+│   │   ├── MSX2 - Sony HB-F700S
+│   │   ├── MSX2 - Sony HB-F900
+│   │   ├── MSX2 - Sony HB-F900 (a)
+│   │   ├── MSX2 - Sony HB-F9P
+│   │   ├── MSX2 - Sony HB-F9P Russian
+│   │   ├── MSX2 - Sony HB-F9S
+│   │   ├── MSX2+ - Sony HB-F9S+
+│   │   ├── MSX2 - Sony HB-G900AP
+│   │   ├── MSX2 - Sony HB-G900P
+│   │   ├── MSX2 - Spanish
+│   │   ├── MSX2 - Spectravideo SVI-738-2 CUC
+│   │   ├── MSX2 - Spectravideo SVI-738-2 JP Grobler
+│   │   ├── MSX2 - Spectravideo SVI-738-2 LC Grosso
+│   │   ├── MSX2 - Swedish
+│   │   ├── MSX2 - Talent TPC-310
+│   │   ├── MSX2 - Toshiba HX-23
+│   │   ├── MSX2 - Toshiba HX-23F
+│   │   ├── MSX2 - Virtual Haesung Console
+│   │   ├── MSX2 - Yamaha CX7M
+│   │   ├── MSX2 - Yamaha CX7M-128
+│   │   ├── MSX - Al Alamiah AX-170
+│   │   ├── MSX - Arabic
+│   │   ├── MSX - Brazilian
+│   │   ├── MSX - Canon V-10
+│   │   ├── MSX - Canon V-20
+│   │   ├── MSX - C-BIOS
+│   │   ├── MSX - Daewoo DPC-100
+│   │   ├── MSX - Daewoo DPC-180
+│   │   ├── MSX - Daewoo DPC-200
+│   │   ├── MSX - Daewoo DPC-200E
+│   │   ├── MSX - Estonian
+│   │   ├── MSX - Frael Bruc 100-1
+│   │   ├── MSX - French
+│   │   ├── MSX - German
+│   │   ├── MSX - Goldstar FC-200
+│   │   ├── MSX - Gradiente Expert 1.0
+│   │   ├── MSX - Gradiente Expert 1.1
+│   │   ├── MSX - Gradiente Expert 1.3
+│   │   ├── MSX - Gradiente Expert DDPlus
+│   │   ├── MSX - Gradiente Expert Plus
+│   │   ├── MSX - Japanese
+│   │   ├── MSX - JVC HC-7GB
+│   │   ├── MSX - Korean
+│   │   ├── MSX - Mitsubishi ML-F80
+│   │   ├── MSX - Mitsubishi ML-FX1
+│   │   ├── MSX - National CF-1200
+│   │   ├── MSX - National CF-2000
+│   │   ├── MSX - National CF-2700
+│   │   ├── MSX - National CF-3000
+│   │   ├── MSX - National CF-3300
+│   │   ├── MSX - National FS-1300
+│   │   ├── MSX - National FS-4000
+│   │   ├── MSX - Olympia PHC-2
+│   │   ├── MSX - Olympia PHC-28
+│   │   ├── MSX - Panasonic CF-2700G
+│   │   ├── MSX - Philips NMS-801
+│   │   ├── MSX - Philips VG-8000
+│   │   ├── MSX - Philips VG-8010
+│   │   ├── MSX - Philips VG-8010F
+│   │   ├── MSX - Philips VG-8020-00
+│   │   ├── MSX - Philips VG-8020-20
+│   │   ├── MSX - Philips VG-8020F
+│   │   ├── MSX - Pioneer PX-7
+│   │   ├── MSX - Pioneer PX-V60
+│   │   ├── MSX - Russian
+│   │   ├── MSX - Sanyo MPC-100
+│   │   ├── MSX - Sanyo MPC-64
+│   │   ├── MSX - Sanyo PHC-28L
+│   │   ├── MSX - Sanyo PHC-28S
+│   │   ├── MSX - Sanyo Wavy MPC-10
+│   │   ├── MSX - Sharp Epcom HotBit 1.1
+│   │   ├── MSX - Sharp Epcom HotBit 1.2
+│   │   ├── MSX - Sharp Epcom HotBit 1.3b
+│   │   ├── MSX - Sharp Epcom HotBit 1.3p
+│   │   ├── MSX - Sony HB-10P
+│   │   ├── MSX - Sony HB-201
+│   │   ├── MSX - Sony HB-201P
+│   │   ├── MSX - Sony HB-20P
+│   │   ├── MSX - Sony HB-501P
+│   │   ├── MSX - Sony HB-55D
+│   │   ├── MSX - Sony HB-55P
+│   │   ├── MSX - Sony HB-75D
+│   │   ├── MSX - Sony HB-75P
+│   │   ├── MSX - Spanish
+│   │   ├── MSX - Spectravideo SVI-728
+│   │   ├── MSX - Spectravideo SVI-738
+│   │   ├── MSX - Spectravideo SVI-738 Henrik Gilvad
+│   │   ├── MSX - Spectravideo SVI-738 Swedish
+│   │   ├── MSX - Swedish
+│   │   ├── MSX - Talent DPC-200
+│   │   ├── MSX - Talent DPC-200A
+│   │   ├── MSX - Toshiba HX-10
+│   │   ├── MSX - Toshiba HX-10S
+│   │   ├── MSX - Toshiba HX-20
+│   │   ├── MSXturboR
+│   │   ├── MSXturboR - European
+│   │   ├── MSXturboR - Panasonic FS-A1GT
+│   │   ├── MSXturboR - Panasonic FS-A1ST
+│   │   ├── MSXturboR - Panasonic FS-A1ST (a)
+│   │   ├── MSXturboR - Panasonic FS-A1ST (b)
+│   │   ├── MSX - Yamaha CX5M-1
+│   │   ├── MSX - Yamaha CX5M-128
+│   │   ├── MSX - Yamaha CX5M-2
+│   │   ├── MSX - Yamaha CX5MII
+│   │   ├── MSX - Yamaha YIS303
+│   │   ├── MSX - Yamaha YIS503
+│   │   ├── MSX - Yamaha YIS503F
+│   │   ├── MSX - Yamaha YIS503II
+│   │   ├── MSX - Yamaha YIS503IIR
+│   │   ├── MSX - Yamaha YIS503IIR Estonian
+│   │   ├── MSX - Yamaha YIS503M
+│   │   ├── MSX - Yashica YC-64
+│   │   ├── MSX - Yeno DPC-64
+│   │   ├── MSX - Yeno MX64
+│   │   ├── SEGA - SC-3000
+│   │   ├── SEGA - SF-7000
+│   │   ├── SEGA - SG-1000
+│   │   ├── Shared Roms
+│   │   ├── SVI - Spectravideo SVI-318
+│   │   ├── SVI - Spectravideo SVI-328
+│   │   ├── SVI - Spectravideo SVI-328 80 Column
+│   │   ├── SVI - Spectravideo SVI-328 80 Swedish
+│   │   └── SVI - Spectravideo SVI-328 MK2
+│   ├── mame2003
+│   │   ├── artwork
+│   │   └── samples
+│   ├── mame2003-plus
+│   │   ├── artwork
+│   │   └── samples
+│   ├── mame2010
+│   │   ├── artwork
+│   │   ├── crosshairs
+│   │   ├── fonts
+│   │   └── samples
+│   ├── mame-sa
+│   │   └── samples
+│   ├── Mupen64plus
+│   │   ├── cache -> /home/grymmjack/retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache
+│   │   └── hires_texture -> /home/grymmjack/retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_texture
+│   ├── np2kai
+│   ├── pico-8
+│   │   ├── carts -> /home/grymmjack/retrodeck/roms/pico8
+│   │   └── cdata -> /home/grymmjack/retrodeck/saves/pico-8
+│   ├── PPSSPP
+│   │   ├── debugger
+│   │   ├── flash0
+│   │   │   └── font
+│   │   ├── lang
+│   │   ├── mime
+│   │   ├── shaders
+│   │   ├── themes
+│   │   ├── ui_images
+│   │   ├── upload
+│   │   └── vfpu
+│   ├── quasi88
+│   └── switch
+│       ├── firmware
+│       └── keys
+├── borders
+│   └── retroarch
+│       └── overlays
+│           ├── borders
+│           │   ├── animated-border
+│           │   │   ├── img-md
+│           │   │   ├── img-nes
+│           │   │   ├── img-psx
+│           │   │   └── img-sfc
+│           │   ├── img
+│           │   ├── NyNy77
+│           │   └── pegasus
+│           ├── ctr
+│           │   ├── borders
+│           │   │   └── img
+│           │   ├── effects
+│           │   │   └── img
+│           │   └── templates
+│           │       └── img
+│           ├── effects
+│           │   ├── crt-bezels
+│           │   │   └── img
+│           │   ├── patterns
+│           │   │   └── img
+│           │   └── scanlines
+│           │       ├── img
+│           │       └── nesguy_scanlines
+│           │           └── img
+│           ├── gamepads
+│           │   ├── 720-med
+│           │   │   └── img
+│           │   ├── arcade
+│           │   │   └── img
+│           │   ├── arcade-anim
+│           │   │   └── img
+│           │   ├── arcade-minimal
+│           │   │   └── img
+│           │   ├── cdi_anim_portrait
+│           │   │   └── img
+│           │   ├── dual-shock
+│           │   │   └── img
+│           │   ├── example
+│           │   ├── flat
+│           │   │   ├── img
+│           │   │   ├── old
+│           │   │   └── src
+│           │   ├── flip_phone
+│           │   │   └── img
+│           │   ├── gameboy
+│           │   │   └── img
+│           │   ├── gba
+│           │   │   └── img
+│           │   ├── gba-anim_landscape
+│           │   │   └── img
+│           │   ├── gba_easy_touch
+│           │   │   ├── img
+│           │   │   └── src
+│           │   ├── gba-grey
+│           │   │   └── img
+│           │   ├── gba_landscape_6x
+│           │   │   └── img
+│           │   ├── gb_anim_portrait
+│           │   │   └── img
+│           │   ├── genesis
+│           │   │   └── img
+│           │   ├── lite
+│           │   │   └── img
+│           │   ├── n64
+│           │   │   ├── img
+│           │   │   └── old
+│           │   ├── Named_Overlays
+│           │   ├── neo-ds-portrait
+│           │   │   └── img
+│           │   │       └── clear
+│           │   ├── neo-retropad
+│           │   │   ├── img
+│           │   │   │   ├── clear
+│           │   │   │   └── default
+│           │   │   └── src
+│           │   │       ├── clear
+│           │   │       ├── default
+│           │   │       └── template
+│           │   ├── nes
+│           │   │   └── img
+│           │   ├── nes-small
+│           │   │   └── img
+│           │   ├── old
+│           │   │   └── Low-resolution
+│           │   ├── Piixel-Gamepads
+│           │   │   └── Piixel Retropad
+│           │   │       └── img
+│           │   ├── psx
+│           │   │   └── img
+│           │   ├── quadpad
+│           │   │   └── img
+│           │   ├── retropad
+│           │   │   └── img
+│           │   ├── rgpad
+│           │   │   ├── modern
+│           │   │   └── retro
+│           │   ├── scummvm
+│           │   │   └── img
+│           │   └── snes
+│           │       └── img
+│           ├── ipad
+│           │   ├── box-psx
+│           │   │   └── img
+│           │   ├── n64
+│           │   │   └── img
+│           │   ├── n64-dark
+│           │   │   └── img
+│           │   └── psx-dark
+│           │       └── img
+│           ├── keyboards
+│           │   ├── commodore
+│           │   │   └── img
+│           │   ├── modular-keyboard
+│           │   │   ├── clear
+│           │   │   │   └── img
+│           │   │   └── opaque
+│           │   │       └── img
+│           │   ├── qwerty
+│           │   │   └── img
+│           │   ├── qwerty-big
+│           │   │   └── img
+│           │   └── US-101
+│           │       └── img
+│           ├── misc
+│           │   ├── gb-portrait
+│           │   │   └── img
+│           │   └── immerse
+│           │       └── img
+│           └── wii
+│               └── img
+├── cheats
+│   ├── Azahar
+│   ├── mame
+│   ├── PCSX2
+│   │   ├── cheats_ni
+│   │   └── cheats_ws
+│   ├── PPSSPP
+│   ├── retroarch
+│   │   ├── Amstrad - GX4000
+│   │   ├── Atari - 2600
+│   │   ├── Atari - 5200
+│   │   ├── Atari - 7800
+│   │   ├── Atari - 8-bit Family
+│   │   ├── Atari - Jaguar
+│   │   ├── Atari - Lynx
+│   │   ├── ChaiLove
+│   │   ├── Coleco - ColecoVision
+│   │   ├── DOS
+│   │   ├── FBNeo - Arcade Games
+│   │   ├── Mattel - Intellivision
+│   │   ├── Microsoft - MSX - MSX2 - MSX2P - MSX Turbo R
+│   │   ├── Microsoft - MSX - MSX2 - MSX2P - MSX Turbo R (fMSX core)
+│   │   ├── NEC - PC Engine CD - TurboGrafx-CD
+│   │   ├── NEC - PC Engine SuperGrafx
+│   │   ├── NEC - PC Engine - TurboGrafx 16
+│   │   ├── Nintendo - Family Computer Disk System
+│   │   ├── Nintendo - Game Boy
+│   │   ├── Nintendo - Game Boy Advance
+│   │   ├── Nintendo - Game Boy Color
+│   │   ├── Nintendo - Nintendo 64
+│   │   ├── Nintendo - Nintendo 64 (Aleck64)
+│   │   ├── Nintendo - Nintendo 64 (iQue)
+│   │   ├── Nintendo - Nintendo 64 (Unreleased)
+│   │   ├── Nintendo - Nintendo DS
+│   │   ├── Nintendo - Nintendo Entertainment System
+│   │   ├── Nintendo - Satellaview
+│   │   ├── Nintendo - Super Nintendo Entertainment System
+│   │   ├── PrBoom
+│   │   ├── PuzzleScript
+│   │   ├── Sega - 32X
+│   │   ├── Sega - Dreamcast
+│   │   ├── Sega - Game Gear
+│   │   ├── Sega - Master System - Mark III
+│   │   ├── Sega - Mega-CD - Sega CD
+│   │   ├── Sega - Mega Drive - Genesis
+│   │   ├── Sega - Saturn
+│   │   ├── Sinclair - ZX Spectrum +3
+│   │   ├── Sony - PlayStation
+│   │   ├── Sony - PlayStation Portable
+│   │   ├── Thomson - MOTO
+│   │   └── TIC-80
+│   └── retroarch-core
+│       └── fbneo
+├── ES-DE
+│   ├── collections
+│   ├── custom_systems
+│   ├── downloaded_media
+│   │   ├── 3do
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3do/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3do/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3do/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3do/video
+│   │   ├── 3ds
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3ds/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3ds/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3ds/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/3ds/video
+│   │   ├── access
+│   │   ├── acorn
+│   │   ├── act
+│   │   ├── actionmax
+│   │   ├── adam
+│   │   ├── adc
+│   │   ├── adp
+│   │   ├── advision
+│   │   ├── agat
+│   │   ├── akai
+│   │   ├── alba
+│   │   ├── alesis
+│   │   ├── alliedleisure
+│   │   ├── alpha
+│   │   ├── altos
+│   │   ├── amiga
+│   │   ├── amiga1200
+│   │   ├── amiga4000
+│   │   ├── amiga500
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amiga500/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amiga500/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amiga500/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amiga500/video
+│   │   ├── amigacd32
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacd32/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacd32/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacd32/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacd32/video
+│   │   ├── amigacdtv
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacdtv/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacdtv/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacdtv/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amigacdtv/video
+│   │   ├── amirix
+│   │   ├── ampro
+│   │   ├── amstrad
+│   │   ├── amstradcpc
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amstradcpc/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amstradcpc/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amstradcpc/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/amstradcpc/video
+│   │   ├── apf
+│   │   ├── apfm1000
+│   │   ├── apollo
+│   │   ├── apple
+│   │   ├── apple2
+│   │   ├── apple2gs
+│   │   ├── appliedconcepts
+│   │   ├── arcadia
+│   │   ├── archimedes
+│   │   ├── arduboy
+│   │   ├── aristocrat
+│   │   ├── astrocade
+│   │   ├── atari
+│   │   ├── atari2600
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari2600/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari2600/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari2600/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari2600/video
+│   │   ├── atari5200
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari5200/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari5200/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari5200/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari5200/video
+│   │   ├── atari7800
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari7800/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari7800/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari7800/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari7800/video
+│   │   ├── atari800
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari800/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari800/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atari800/video
+│   │   ├── atarist
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atarist/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atarist/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atarist/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/atarist/video
+│   │   ├── atlus
+│   │   ├── atom
+│   │   ├── atomiswave
+│   │   ├── att
+│   │   ├── ausnz
+│   │   ├── banctec
+│   │   ├── bandai
+│   │   ├── Bandai Super Vision 8000
+│   │   ├── barcrest
+│   │   ├── bbcmicro
+│   │   ├── be
+│   │   ├── beehive
+│   │   ├── bezels_project
+│   │   ├── bfm
+│   │   ├── bitcorp
+│   │   ├── bmc
+│   │   ├── bondwell
+│   │   ├── boom3
+│   │   ├── booth
+│   │   ├── Bootleg Games
+│   │   ├── brother
+│   │   ├── burroughs
+│   │   ├── c128
+│   │   ├── c20
+│   │   ├── c64
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/c64/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/c64/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/c64/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/c64/video
+│   │   ├── camplynx
+│   │   ├── camputers
+│   │   ├── cannonball
+│   │   ├── canon
+│   │   ├── cantab
+│   │   ├── capcom
+│   │   ├── casio
+│   │   ├── cave
+│   │   ├── cavestory
+│   │   ├── cce
+│   │   ├── ccs
+│   │   ├── cdi
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/cdi/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/cdi/wheel
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/cdi/video
+│   │   ├── ceres
+│   │   ├── ces
+│   │   ├── channelf
+│   │   ├── chess
+│   │   ├── chihiro
+│   │   ├── chromatics
+│   │   ├── cinematronics
+│   │   ├── cirsa
+│   │   ├── citoh
+│   │   ├── coco
+│   │   ├── coleco
+│   │   ├── colecovision
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/colecovision/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/colecovision/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/colecovision/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/colecovision/video
+│   │   ├── comad
+│   │   ├── commodore
+│   │   ├── compugraphic
+│   │   ├── comx
+│   │   ├── concept
+│   │   ├── conitec
+│   │   ├── cplus4
+│   │   ├── cps1
+│   │   ├── cps2
+│   │   ├── cps3
+│   │   ├── cromemco
+│   │   ├── crvision
+│   │   ├── cvs
+│   │   ├── cxg
+│   │   ├── cybiko
+│   │   ├── dai
+│   │   ├── daphne
+│   │   ├── dataeast
+│   │   ├── ddr
+│   │   ├── dec
+│   │   ├── dg
+│   │   ├── dgrm
+│   │   ├── dinothawr
+│   │   ├── dms
+│   │   ├── dooyong
+│   │   ├── dos
+│   │   ├── drc
+│   │   ├── dreamcast
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/dreamcast/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/dreamcast/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/dreamcast/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/dreamcast/video
+│   │   ├── dynax
+│   │   ├── eaca
+│   │   ├── easyrpg
+│   │   ├── ecwolf
+│   │   ├── edevices
+│   │   ├── eduke32
+│   │   ├── efo
+│   │   ├── elektor
+│   │   ├── elektron
+│   │   ├── emusys
+│   │   ├── ensoniq
+│   │   ├── enterprise
+│   │   ├── entex
+│   │   ├── eolith
+│   │   ├── epoch
+│   │   ├── epson
+│   │   ├── ericsson
+│   │   ├── excellent
+│   │   ├── exidy
+│   │   ├── f32
+│   │   ├── facit
+│   │   ├── fairchild
+│   │   ├── fairlight
+│   │   ├── falco
+│   │   ├── famicom
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/famicom/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/famicom/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/famicom/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/famicom/video
+│   │   ├── fbneo
+│   │   ├── fds
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/fds/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/fds/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/fds/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/fds/video
+│   │   ├── fidelity
+│   │   ├── Final Burn Alpha
+│   │   ├── flash
+│   │   ├── fm7
+│   │   ├── fmtowns
+│   │   ├── force
+│   │   ├── fpinball
+│   │   ├── fujitsu
+│   │   ├── funtech
+│   │   ├── funworld
+│   │   ├── Future Pinball
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Future Pinball/boxart
+│   │   ├── fuuki
+│   │   ├── gaelco
+│   │   ├── galaxian
+│   │   ├── gamate
+│   │   ├── gameandwatch
+│   │   ├── gamecom
+│   │   ├── gamecube
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamecube/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamecube/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamecube/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamecube/video
+│   │   ├── gamegear
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamegear/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamegear/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamegear/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gamegear/video
+│   │   ├── gamepark
+│   │   ├── gamepock
+│   │   ├── gametron
+│   │   ├── gb
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gb/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gb/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gb/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gb/video
+│   │   ├── gb2players
+│   │   ├── gba
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gba/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gba/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gba/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gba/video
+│   │   ├── gba2players
+│   │   ├── gbah
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbah/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbah/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbah/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbah/video
+│   │   ├── gbc
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbc/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbc/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbc/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gbc/video
+│   │   ├── gbc2players
+│   │   ├── gemrb
+│   │   ├── genesis
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesis/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesis/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesis/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesis/video
+│   │   ├── genesish
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesish/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesish/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesish/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/genesish/video
+│   │   ├── gmaster
+│   │   ├── gottlieb
+│   │   ├── gp32
+│   │   ├── gridcomp
+│   │   ├── grundy
+│   │   ├── gx4000
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gx4000/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gx4000/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gx4000/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/gx4000/video
+│   │   ├── gzdoom
+│   │   ├── handheld
+│   │   ├── hbmame
+│   │   ├── HBMAME
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/HBMAME/boxart
+│   │   ├── hds
+│   │   ├── heathkit
+│   │   ├── hec2hrp
+│   │   ├── hegenerglaser
+│   │   ├── hikaru
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/hikaru/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/hikaru/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/hikaru/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/hikaru/video
+│   │   ├── hitachi
+│   │   ├── homebrew
+│   │   ├── homelab
+│   │   ├── hp
+│   │   ├── husky
+│   │   ├── ibm
+│   │   ├── ice
+│   │   ├── igs
+│   │   ├── igt
+│   │   ├── ikemen
+│   │   ├── informer
+│   │   ├── intel
+│   │   ├── intellivision
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/intellivision/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/intellivision/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/intellivision/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/intellivision/video
+│   │   ├── intergraph
+│   │   ├── interton
+│   │   ├── irem
+│   │   ├── isc
+│   │   ├── itech
+│   │   ├── jaguar
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/jaguar/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/jaguar/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/jaguar/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/jaguar/video
+│   │   ├── jaguarcd
+│   │   ├── jaleco
+│   │   ├── jpm
+│   │   ├── kaneko
+│   │   ├── kawai
+│   │   ├── kaypro
+│   │   ├── kiwako
+│   │   ├── koei
+│   │   ├── konami
+│   │   ├── kontron
+│   │   ├── korg
+│   │   ├── kurzweil
+│   │   ├── kyber
+│   │   ├── kyocera
+│   │   ├── layout
+│   │   ├── lcdgames
+│   │   ├── leapfrog
+│   │   ├── learsiegler
+│   │   ├── liberty
+│   │   ├── love
+│   │   ├── lowresnx
+│   │   ├── lsi
+│   │   ├── lutro
+│   │   ├── luxor
+│   │   ├── lynx
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/lynx/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/lynx/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/lynx/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/lynx/video
+│   │   ├── makerbot
+│   │   ├── mame
+│   │   ├── Mame
+│   │   ├── mastersystem
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystem/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystem/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystem/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystem/video
+│   │   ├── mastersystemh
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystemh/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystemh/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystemh/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/mastersystemh/video
+│   │   ├── matic
+│   │   ├── matsushita
+│   │   ├── mattel
+│   │   ├── maygay
+│   │   ├── mc
+│   │   ├── mchester
+│   │   ├── meadows
+│   │   ├── megadrive
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadrive/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadrive/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadrive/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadrive/video
+│   │   ├── megadriveh
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadriveh/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadriveh/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadriveh/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megadriveh/video
+│   │   ├── megadrive-msu
+│   │   ├── megaduck
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megaduck/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megaduck/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megaduck/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/megaduck/video
+│   │   ├── memotech
+│   │   ├── mera
+│   │   ├── merit
+│   │   ├── metro
+│   │   ├── mg1
+│   │   ├── microkey
+│   │   ├── microsoft
+│   │   ├── microterm
+│   │   ├── midcoin
+│   │   ├── midw8080
+│   │   ├── midway
+│   │   ├── Midway Graphite
+│   │   ├── miltonbradley
+│   │   ├── mips
+│   │   ├── misc
+│   │   ├── mit
+│   │   ├── mits
+│   │   ├── mitsubishi
+│   │   ├── model2
+│   │   ├── model3
+│   │   ├── morrow
+│   │   ├── motorola
+│   │   ├── mr
+│   │   ├── msx
+│   │   ├── msx1
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx1/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx1/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx1/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx1/video
+│   │   ├── msx2
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2/video
+│   │   ├── msx2+
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2+/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2+/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2+/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/msx2+/video
+│   │   ├── msxturbor
+│   │   ├── mugen
+│   │   ├── Mugen
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Mugen/boxart
+│   │   ├── multitech
+│   │   ├── multivision
+│   │   ├── mupid
+│   │   ├── n64
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64/video
+│   │   ├── n64dd
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64dd/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64dd/wheel
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/n64dd/video
+│   │   ├── nakajima
+│   │   ├── namco
+│   │   ├── namco2x6
+│   │   ├── naomi
+│   │   ├── naomi2
+│   │   ├── nasco
+│   │   ├── nascom
+│   │   ├── natsemi
+│   │   ├── ncd
+│   │   ├── nds
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nds/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nds/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nds/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nds/video
+│   │   ├── nec
+│   │   ├── neogeo
+│   │   ├── neogeo64
+│   │   ├── neogeocd
+│   │   ├── nes
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nes/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nes/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nes/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nes/video
+│   │   ├── nesh
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nesh/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nesh/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nesh/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/nesh/video
+│   │   ├── netronics
+│   │   ├── next
+│   │   ├── ngage
+│   │   ├── ngp
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngp/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngp/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngp/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngp/video
+│   │   ├── ngpc
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngpc/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngpc/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngpc/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ngpc/video
+│   │   ├── nichibutsu
+│   │   ├── nintendo
+│   │   ├── Nintendo Game & Watch
+│   │   ├── nix
+│   │   ├── nmk
+│   │   ├── nokia
+│   │   ├── northstar
+│   │   ├── novadesitec
+│   │   ├── novag
+│   │   ├── novation
+│   │   ├── o2em
+│   │   ├── olivetti
+│   │   ├── olympia
+│   │   ├── olympiaint
+│   │   ├── omnibyte
+│   │   ├── omori
+│   │   ├── omron
+│   │   ├── openbor
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/openbor/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/openbor/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/openbor/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/openbor/video
+│   │   ├── openlara
+│   │   ├── openuni
+│   │   ├── orca
+│   │   ├── oricatmos
+│   │   ├── orla
+│   │   ├── osborne
+│   │   ├── osi
+│   │   ├── overlays_priority
+│   │   ├── pacific
+│   │   ├── pacman
+│   │   ├── palm
+│   │   ├── pc
+│   │   ├── pc88
+│   │   ├── pc98
+│   │   ├── pce
+│   │   ├── pcengine
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcengine/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcengine/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcengine/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcengine/video
+│   │   ├── pcenginecd
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcenginecd/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcenginecd/video
+│   │   ├── pcfx
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcfx/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcfx/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcfx/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pcfx/video
+│   │   ├── pet
+│   │   ├── philips
+│   │   ├── phoenix
+│   │   ├── pico8
+│   │   ├── pinball
+│   │   ├── pinballfx
+│   │   ├── pinballfx2
+│   │   ├── pinballfx3
+│   │   ├── Pinball FX3
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Pinball FX3/boxart
+│   │   ├── pinballm
+│   │   ├── pitronics
+│   │   ├── playmark
+│   │   ├── pokemini
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pokemini/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pokemini/wheel
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pokemini/video
+│   │   ├── poly88
+│   │   ├── portmaster
+│   │   ├── ports
+│   │   ├── positron
+│   │   ├── prboom
+│   │   ├── promat
+│   │   ├── ps2
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps2/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps2/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps2/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps2/video
+│   │   ├── ps3
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps3/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps3/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps3/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/ps3/video
+│   │   ├── psikyo
+│   │   ├── psion
+│   │   ├── psp
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psp/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psp/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psp/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psp/video
+│   │   ├── pspminis
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pspminis/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pspminis/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pspminis/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/pspminis/video
+│   │   ├── psvita
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psvita/boxart
+│   │   │   └── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psvita/screenshot
+│   │   ├── psx
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psx/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psx/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psx/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/psx/video
+│   │   ├── psx2  psvita
+│   │   ├── pv1000
+│   │   ├── quantel
+│   │   ├── qume
+│   │   ├── ramtek
+│   │   ├── rare
+│   │   ├── rca
+│   │   ├── regnecentralen
+│   │   ├── rm
+│   │   ├── robotron
+│   │   ├── rockwell
+│   │   ├── roland
+│   │   ├── rolm
+│   │   ├── sage
+│   │   ├── saitek
+│   │   ├── samcoupe
+│   │   ├── samsung
+│   │   ├── sanritsu
+│   │   ├── sanyo
+│   │   ├── satellaview
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/satellaview/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/satellaview/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/satellaview/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/satellaview/video
+│   │   ├── saturn
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/saturn/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/saturn/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/saturn/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/saturn/video
+│   │   ├── scummvm
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/scummvm/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/scummvm/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/scummvm/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/scummvm/video
+│   │   ├── scv
+│   │   ├── sega
+│   │   ├── sega32x
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sega32x/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sega32x/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sega32x/video
+│   │   ├── segacd
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/segacd/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/segacd/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/segacd/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/segacd/video
+│   │   ├── Sega Model 2
+│   │   ├── Sega Model 3
+│   │   ├── Sega Naomi
+│   │   ├── Sega Naomi 2
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Naomi 2/boxart
+│   │   ├── Sega Nomad
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Nomad/boxart
+│   │   ├── segastv
+│   │   ├── seibu
+│   │   ├── sequential
+│   │   ├── seta
+│   │   ├── Settings
+│   │   ├── sfc
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sfc/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sfc/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sfc/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sfc/video
+│   │   ├── sfrj
+│   │   ├── sg1000
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sg1000/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sg1000/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sg1000/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sg1000/video
+│   │   ├── sgb
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sgb/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sgb/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sgb/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/sgb/video
+│   │   ├── sgi
+│   │   ├── shared
+│   │   ├── sharp
+│   │   ├── siemens
+│   │   ├── sigma
+│   │   ├── sinclair
+│   │   ├── skeleton
+│   │   ├── slicer
+│   │   ├── snes
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes/video
+│   │   ├── snes-msu
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes-msu/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes-msu/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes-msu/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/snes-msu/video
+│   │   ├── snk
+│   │   ├── SNK Neo Geo CD
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/SNK Neo Geo CD/boxart
+│   │   ├── solarus
+│   │   ├── sony
+│   │   ├── sord
+│   │   ├── spectravideo
+│   │   ├── stern
+│   │   ├── stm
+│   │   ├── subsino
+│   │   ├── sufami
+│   │   ├── sun
+│   │   ├── suna
+│   │   ├── sunelectronics
+│   │   ├── superbroswar
+│   │   ├── supergrafx
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supergrafx/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supergrafx/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supergrafx/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supergrafx/video
+│   │   ├── supervision
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supervision/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supervision/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supervision/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/supervision/video
+│   │   ├── supracan
+│   │   ├── svi
+│   │   ├── svision
+│   │   ├── switch
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/switch/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/switch/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/switch/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/switch/video
+│   │   ├── swtpc
+│   │   ├── synertek
+│   │   ├── ta
+│   │   ├── tab
+│   │   ├── taito
+│   │   ├── tandberg
+│   │   ├── tangerine
+│   │   ├── tatsumi
+│   │   ├── tatung
+│   │   ├── tch
+│   │   ├── teamconcepts
+│   │   ├── tecfri
+│   │   ├── technos
+│   │   ├── tecmo
+│   │   ├── teknoparrot
+│   │   ├── tektronix
+│   │   ├── telenova
+│   │   ├── telercas
+│   │   ├── televideo
+│   │   ├── tesla
+│   │   ├── theforceengine
+│   │   ├── thepit
+│   │   ├── thomson
+│   │   ├── ti
+│   │   ├── ti99
+│   │   ├── tic80
+│   │   ├── tiger
+│   │   ├── Tiger Handheld Electronics
+│   │   │   └── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Tiger Handheld Electronics/boxart
+│   │   ├── tigertel
+│   │   ├── tiki
+│   │   ├── toaplan
+│   │   ├── tomy
+│   │   ├── toshiba
+│   │   ├── trainer
+│   │   ├── triforce
+│   │   ├── trs
+│   │   ├── tryom
+│   │   ├── turbografx16
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografx16/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografx16/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografx16/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografx16/video
+│   │   ├── turbografxcd
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografxcd/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografxcd/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografxcd/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/turbografxcd/video
+│   │   ├── tutor
+│   │   ├── tvgames
+│   │   ├── tyrquake
+│   │   ├── ultimachine
+│   │   ├── ultratec
+│   │   ├── unicard
+│   │   ├── unico
+│   │   ├── unisonic
+│   │   ├── unisys
+│   │   ├── universal
+│   │   ├── upl
+│   │   ├── usp
+│   │   ├── ussr
+│   │   ├── uzebox
+│   │   ├── valadon
+│   │   ├── vectorgraphic
+│   │   ├── vectrex
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/vectrex/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/vectrex/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/vectrex/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/vectrex/video
+│   │   ├── venture
+│   │   ├── verifone
+│   │   ├── vidbrain
+│   │   ├── videoton
+│   │   ├── virtual
+│   │   ├── virtualboy
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/virtualboy/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/virtualboy/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/virtualboy/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/virtualboy/video
+│   │   ├── visual
+│   │   ├── vitaquake2
+│   │   ├── votrax
+│   │   ├── vpinball
+│   │   ├── vsmile
+│   │   ├── vsystem
+│   │   ├── vtech
+│   │   ├── wang
+│   │   ├── wasm4
+│   │   ├── wavemate
+│   │   ├── westinghouse
+│   │   ├── wii
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wii/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wii/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wii/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wii/video
+│   │   ├── wiiu
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiu/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiu/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiu/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiu/video
+│   │   ├── wiiware
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiware/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiware/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiware/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wiiware/video
+│   │   ├── windows
+│   │   ├── wing
+│   │   ├── wswan
+│   │   ├── wswanc
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wswanc/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wswanc/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wswanc/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/wswanc/video
+│   │   ├── wyse
+│   │   ├── x1
+│   │   ├── x68000
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/x68000/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/x68000/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/x68000/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/x68000/video
+│   │   ├── xbox
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox/video
+│   │   ├── xbox360
+│   │   │   ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox360/boxart
+│   │   │   ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox360/wheel
+│   │   │   ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox360/screenshot
+│   │   │   └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/xbox360/video
+│   │   ├── xegs
+│   │   ├── xerox
+│   │   ├── yamaha
+│   │   ├── yunsung
+│   │   ├── zaccaria
+│   │   ├── zaccariapinball
+│   │   ├── zenith
+│   │   ├── zinc
+│   │   ├── zpa
+│   │   ├── zvt
+│   │   ├── zx81
+│   │   └── zxspectrum
+│   │       ├── covers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/zxspectrum/boxart
+│   │       ├── marquees -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/zxspectrum/wheel
+│   │       ├── screenshots -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/zxspectrum/screenshot
+│   │       └── videos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/zxspectrum/video
+│   ├── gamelists
+│   ├── screensavers
+│   │   └── custom_slideshow
+│   ├── scripts
+│   └── themes
+├── logs -> /home/grymmjack/.var/app/net.retrodeck.retrodeck/config/retrodeck/logs
+├── mods
+│   ├── Azahar
+│   │   └── mods
+│   ├── Dolphin
+│   │   └── GraphicMods
+│   ├── mame
+│   │   ├── plugin-data
+│   │   └── plugins
+│   ├── PCSX2
+│   │   └── patches
+│   ├── PPSSPP
+│   │   └── PLUGINS
+│   ├── Primehack
+│   ├── retroarch-core
+│   │   ├── Citra
+│   │   │   └── mods
+│   │   ├── Dolphin
+│   │   │   └── GraphicMods
+│   │   └── fbneo
+│   │       ├── ips
+│   │       ├── patched
+│   │       └── romdata
+│   └── Ryubing
+│       └── contents
+├── PortMaster
+├── roms
+│   ├── 3do
+│   │   └── 3do -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/3do
+│   ├── 3ds -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/3ds
+│   ├── access -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/access
+│   ├── acorn -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/acorn
+│   ├── act -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/act
+│   ├── actionmax -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/actionmax
+│   ├── adam
+│   │   └── adam -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/adam
+│   ├── adc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/adc
+│   ├── adp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/adp
+│   ├── advision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/advision
+│   ├── agat -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/agat
+│   ├── akai -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/akai
+│   ├── alba -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/alba
+│   ├── alesis -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/alesis
+│   ├── alliedleisure -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/alliedleisure
+│   ├── alpha -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/alpha
+│   ├── altos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/altos
+│   ├── amiga -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/amiga
+│   ├── amiga1200
+│   │   └── amiga1200 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amiga1200
+│   ├── amiga4000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amiga4000
+│   ├── amiga500 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amiga500
+│   ├── amiga600
+│   ├── amigacd32
+│   │   └── amigacd32 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amigacd32
+│   ├── amigacdtv -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amigacdtv
+│   ├── amirix -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/amirix
+│   ├── ampro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ampro
+│   ├── amstrad -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/amstrad
+│   ├── amstradcpc
+│   │   └── amstradcpc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/amstradcpc
+│   ├── apf -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/apf
+│   ├── apfm1000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/apfm1000
+│   ├── apollo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/apollo
+│   ├── apple -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/apple
+│   ├── apple2
+│   │   └── apple2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/apple2
+│   ├── apple2gs
+│   │   └── apple2gs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/apple2gs
+│   ├── appliedconcepts -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/appliedconcepts
+│   ├── arcade
+│   ├── arcadia -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/arcadia
+│   ├── archimedes
+│   │   └── archimedes -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/archimedes
+│   ├── arduboy
+│   │   └── arduboy -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/arduboy
+│   ├── aristocrat -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/aristocrat
+│   ├── astrocade -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/astrocade
+│   ├── astrocde
+│   ├── atari -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/atari
+│   ├── atari2600
+│   │   └── atari2600 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atari2600
+│   ├── atari5200
+│   │   └── atari5200 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atari5200
+│   ├── atari7800
+│   │   └── atari7800 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atari7800
+│   ├── atari800
+│   │   └── atari800 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atari800
+│   ├── atarijaguar
+│   ├── atarilynx
+│   ├── atarist
+│   │   └── atarist -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atarist
+│   ├── atarixe
+│   ├── atlus -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/atlus
+│   ├── atom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atom
+│   ├── atomiswave
+│   │   └── atomiswave -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/atomiswave
+│   ├── att -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/att
+│   ├── ausnz -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ausnz
+│   ├── banctec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/banctec
+│   ├── bandai -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/bandai
+│   ├── Bandai Super Vision 8000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Bandai Super Vision 8000
+│   ├── barcrest -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/barcrest
+│   ├── bbcmicro
+│   │   └── bbcmicro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/bbcmicro
+│   ├── be -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/be
+│   ├── beehive -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/beehive
+│   ├── bezels_project -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/bezels_project
+│   ├── bfm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/bfm
+│   ├── bitcorp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/bitcorp
+│   ├── bmc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/bmc
+│   ├── bondwell -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/bondwell
+│   ├── boom3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/boom3
+│   ├── booth -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/booth
+│   ├── Bootleg Games -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Bootleg Games
+│   ├── brother -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/brother
+│   ├── burroughs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/burroughs
+│   ├── c128 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/c128
+│   ├── c20 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/c20
+│   ├── c64
+│   │   └── c64 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/c64
+│   ├── camplynx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/camplynx
+│   ├── camputers -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/camputers
+│   ├── cannonball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cannonball
+│   ├── canon -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/canon
+│   ├── cantab -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cantab
+│   ├── capcom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/capcom
+│   ├── casio -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/casio
+│   ├── cave -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cave
+│   ├── cavestory -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cavestory
+│   ├── cce -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cce
+│   ├── ccs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ccs
+│   ├── cdi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cdi
+│   ├── cdimono1
+│   ├── cdtv
+│   ├── ceres -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ceres
+│   ├── ces -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ces
+│   ├── chailove
+│   ├── channelf
+│   │   └── channelf -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/channelf
+│   ├── chess -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/chess
+│   ├── chihiro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/chihiro
+│   ├── chromatics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/chromatics
+│   ├── cinematronics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cinematronics
+│   ├── cirsa -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cirsa
+│   ├── citoh -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/citoh
+│   ├── coco
+│   │   └── coco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/coco
+│   ├── coleco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/coleco
+│   ├── colecovision
+│   │   └── colecovision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/colecovision
+│   ├── comad -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/comad
+│   ├── commodore -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/commodore
+│   ├── compugraphic -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/compugraphic
+│   ├── comx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/comx
+│   ├── concept -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/concept
+│   ├── conitec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/conitec
+│   ├── consolearcade
+│   ├── cplus4 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cplus4
+│   ├── cps
+│   ├── cps1
+│   │   └── cps1 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cps1
+│   ├── cps2
+│   │   └── cps2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cps2
+│   ├── cps3
+│   │   └── cps3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/cps3
+│   ├── cromemco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cromemco
+│   ├── crvision
+│   │   └── crvision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/crvision
+│   ├── cvs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cvs
+│   ├── cxg -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cxg
+│   ├── cybiko -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/cybiko
+│   ├── dai -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dai
+│   ├── daphne
+│   │   └── daphne -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/daphne
+│   ├── dataeast -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dataeast
+│   ├── ddr -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ddr
+│   ├── dec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dec
+│   ├── desktop
+│   ├── dg -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dg
+│   ├── dgrm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dgrm
+│   ├── dinothawr -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/dinothawr
+│   ├── dms -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dms
+│   ├── doom
+│   ├── dooyong -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dooyong
+│   ├── dos
+│   │   └── dos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/dos
+│   ├── dragon32
+│   ├── drc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/drc
+│   ├── dreamcast
+│   │   └── dreamcast -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/dreamcast
+│   ├── dynax -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/dynax
+│   ├── eaca -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/eaca
+│   ├── easyrpg
+│   │   └── easyrpg -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/easyrpg
+│   ├── ecwolf -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ecwolf
+│   ├── edevices -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/edevices
+│   ├── eduke32 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/eduke32
+│   ├── efo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/efo
+│   ├── electron
+│   ├── elektor -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/elektor
+│   ├── elektron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/elektron
+│   ├── emusys -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/emusys
+│   ├── ensoniq -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ensoniq
+│   ├── enterprise -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/enterprise
+│   ├── entex -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/entex
+│   ├── eolith -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/eolith
+│   ├── epoch -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/epoch
+│   ├── epson -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/epson
+│   ├── ericsson -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ericsson
+│   ├── excellent -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/excellent
+│   ├── exidy -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/exidy
+│   ├── f32 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/f32
+│   ├── facit -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/facit
+│   ├── fairchild -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/fairchild
+│   ├── fairlight -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/fairlight
+│   ├── falco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/falco
+│   ├── famicom
+│   │   └── famicom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/famicom
+│   ├── fba
+│   ├── fbneo
+│   │   └── fbneo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/fbneo
+│   ├── fds
+│   │   └── fds -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/fds
+│   ├── fidelity -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/fidelity
+│   ├── Final Burn Alpha -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Final Burn Alpha
+│   ├── flash
+│   │   └── flash -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/flash
+│   ├── fm7
+│   │   └── fm7 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/fm7
+│   ├── fmtowns
+│   │   └── fmtowns -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/fmtowns
+│   ├── force -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/force
+│   ├── fpinball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/fpinball
+│   ├── fujitsu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/fujitsu
+│   ├── funtech -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/funtech
+│   ├── funworld -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/funworld
+│   ├── Future Pinball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Future Pinball
+│   ├── fuuki -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/fuuki
+│   ├── gaelco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/gaelco
+│   ├── galaxian -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/galaxian
+│   ├── gamate
+│   │   └── gamate -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gamate
+│   ├── gameandwatch
+│   │   └── gameandwatch -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gameandwatch
+│   ├── gamecom
+│   │   └── gamecom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gamecom
+│   ├── gamecube -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gamecube
+│   ├── gamegear
+│   │   └── gamegear -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gamegear
+│   ├── gamepark -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/gamepark
+│   ├── gamepock -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gamepock
+│   ├── gametron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/gametron
+│   ├── gb
+│   │   └── gb -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gb
+│   ├── gb2players -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gb2players
+│   ├── gba
+│   │   └── gba -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gba
+│   ├── gba2players -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gba2players
+│   ├── gbah -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gbah
+│   ├── gbc
+│   │   └── gbc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gbc
+│   ├── gbc2players -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gbc2players
+│   ├── gc
+│   ├── gemrb -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gemrb
+│   ├── genesis
+│   │   └── genesis -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/genesis
+│   ├── genesish -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/genesish
+│   ├── gmaster
+│   │   └── gmaster -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gmaster
+│   ├── gottlieb -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/gottlieb
+│   ├── gp32 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gp32
+│   ├── gridcomp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/gridcomp
+│   ├── grundy -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/grundy
+│   ├── gx4000
+│   │   └── gx4000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gx4000
+│   ├── gzdoom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/gzdoom
+│   ├── handheld -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/handheld
+│   ├── hbmame -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/hbmame
+│   ├── HBMAME -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/HBMAME
+│   ├── hds -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/hds
+│   ├── heathkit -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/heathkit
+│   ├── hec2hrp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/hec2hrp
+│   ├── hegenerglaser -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/hegenerglaser
+│   ├── hikaru -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/hikaru
+│   ├── hitachi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/hitachi
+│   ├── homebrew -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/homebrew
+│   ├── homelab -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/homelab
+│   ├── hp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/hp
+│   ├── husky -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/husky
+│   ├── ibm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ibm
+│   ├── ice -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ice
+│   ├── igs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/igs
+│   ├── igt -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/igt
+│   ├── ikemen -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ikemen
+│   ├── informer -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/informer
+│   ├── intel -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/intel
+│   ├── intellivision
+│   │   └── intellivision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/intellivision
+│   ├── intergraph -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/intergraph
+│   ├── interton -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/interton
+│   ├── irem -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/irem
+│   ├── isc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/isc
+│   ├── itech -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/itech
+│   ├── j2me
+│   ├── jaguar -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/jaguar
+│   ├── jaguarcd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/jaguarcd
+│   ├── jaleco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/jaleco
+│   ├── jpm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/jpm
+│   ├── kaneko -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kaneko
+│   ├── kawai -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kawai
+│   ├── kaypro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kaypro
+│   ├── kiwako -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kiwako
+│   ├── koei -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/koei
+│   ├── konami -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/konami
+│   ├── kontron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kontron
+│   ├── korg -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/korg
+│   ├── kurzweil -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kurzweil
+│   ├── kyber -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kyber
+│   ├── kyocera -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/kyocera
+│   ├── laserdisc
+│   ├── layout -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/layout
+│   ├── lcdgames
+│   │   └── lcdgames -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/lcdgames
+│   ├── leapfrog -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/leapfrog
+│   ├── learsiegler -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/learsiegler
+│   ├── liberty -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/liberty
+│   ├── love -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/love
+│   ├── lowresnx
+│   │   └── lowresnx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/lowresnx
+│   ├── lsi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/lsi
+│   ├── lutro
+│   │   └── lutro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/lutro
+│   ├── luxor -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/luxor
+│   ├── lynx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/lynx
+│   ├── macintosh
+│   ├── makerbot -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/makerbot
+│   ├── mame
+│   │   └── mame -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/mame
+│   ├── Mame -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Mame
+│   ├── mark3
+│   ├── mastersystem
+│   │   └── mastersystem -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/mastersystem
+│   ├── mastersystemh -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/mastersystemh
+│   ├── matic -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/matic
+│   ├── matsushita -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/matsushita
+│   ├── mattel -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mattel
+│   ├── maygay -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/maygay
+│   ├── mc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mc
+│   ├── mchester -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mchester
+│   ├── meadows -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/meadows
+│   ├── megacd
+│   ├── megacdjp
+│   ├── megadrive
+│   │   └── megadrive -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/megadrive
+│   ├── megadriveh -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/megadriveh
+│   ├── megadrivejp
+│   ├── megadrive-msu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/megadrive-msu
+│   ├── megaduck
+│   │   └── megaduck -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/megaduck
+│   ├── memotech -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/memotech
+│   ├── mera -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mera
+│   ├── merit -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/merit
+│   ├── mess
+│   ├── metro -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/metro
+│   ├── mg1 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mg1
+│   ├── microkey -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/microkey
+│   ├── microsoft -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/microsoft
+│   ├── microterm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/microterm
+│   ├── midcoin -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/midcoin
+│   ├── midw8080 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/midw8080
+│   ├── midway -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/midway
+│   ├── Midway Graphite -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Midway Graphite
+│   ├── miltonbradley -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/miltonbradley
+│   ├── mips -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mips
+│   ├── misc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/misc
+│   ├── mit -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mit
+│   ├── mits -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mits
+│   ├── mitsubishi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mitsubishi
+│   ├── model2
+│   │   └── model2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/model2
+│   ├── model3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/model3
+│   ├── morrow -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/morrow
+│   ├── moto
+│   ├── motorola -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/motorola
+│   ├── mr -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mr
+│   ├── msx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/msx
+│   ├── msx1
+│   │   └── msx1 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/msx1
+│   ├── msx2
+│   │   └── msx2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/msx2
+│   ├── msx2+ -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/msx2+
+│   ├── msxturbor
+│   │   └── msxturbor -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/msxturbor
+│   ├── mugen
+│   │   └── mugen -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/mugen
+│   ├── Mugen -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Mugen
+│   ├── multitech -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/multitech
+│   ├── multivision
+│   │   └── multivision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/multivision
+│   ├── mupid -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/mupid
+│   ├── n3ds
+│   ├── n64
+│   │   └── n64 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/n64
+│   ├── n64dd
+│   │   └── n64dd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/n64dd
+│   ├── nakajima -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nakajima
+│   ├── namco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/namco
+│   ├── namco2x6 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/namco2x6
+│   ├── naomi
+│   │   └── naomi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/naomi
+│   ├── naomi2
+│   │   └── naomi2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/naomi2
+│   ├── naomigd
+│   ├── nasco -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nasco
+│   ├── nascom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nascom
+│   ├── natsemi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/natsemi
+│   ├── ncd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ncd
+│   ├── nds
+│   │   └── nds -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/nds
+│   ├── nec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nec
+│   ├── neogeo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/neogeo
+│   ├── neogeo64 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/neogeo64
+│   ├── neogeocd
+│   │   └── neogeocd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/neogeocd
+│   ├── neogeocdjp
+│   ├── nes -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/mameui260/docs/release/src/devices/bus/nes
+│   ├── nesh -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/nesh
+│   ├── netronics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/netronics
+│   ├── next -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/next
+│   ├── ngage -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ngage
+│   ├── ngp
+│   │   └── ngp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ngp
+│   ├── ngpc
+│   │   └── ngpc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ngpc
+│   ├── nichibutsu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nichibutsu
+│   ├── nintendo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nintendo
+│   ├── Nintendo Game & Watch -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Nintendo Game & Watch
+│   ├── nix -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nix
+│   ├── nmk -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nmk
+│   ├── nokia -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/nokia
+│   ├── northstar -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/northstar
+│   ├── novadesitec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/novadesitec
+│   ├── novag -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/novag
+│   ├── novation -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/novation
+│   ├── o2em -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/o2em
+│   ├── odyssey2
+│   ├── olivetti -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/olivetti
+│   ├── olympia -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/olympia
+│   ├── olympiaint -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/olympiaint
+│   ├── omnibyte -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/omnibyte
+│   ├── omori -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/omori
+│   ├── omron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/omron
+│   ├── openbor
+│   │   └── openbor -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/openbor
+│   ├── openlara -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/openlara
+│   ├── openuni -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/openuni
+│   ├── orca -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/orca
+│   ├── oric
+│   ├── oricatmos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/oricatmos
+│   ├── orla -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/orla
+│   ├── osborne -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/osborne
+│   ├── osi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/osi
+│   ├── overlays_priority -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/overlays_priority
+│   ├── pacific -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pacific
+│   ├── pacman -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pacman
+│   ├── palm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/palm
+│   ├── pc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pc
+│   ├── pc88
+│   │   └── pc88 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pc88
+│   ├── pc98
+│   │   └── pc98 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pc98
+│   ├── pce -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pce
+│   ├── pcengine
+│   │   └── pcengine -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pcengine
+│   ├── pcenginecd
+│   │   └── pcenginecd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pcenginecd
+│   ├── pcfx
+│   │   └── pcfx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pcfx
+│   ├── pet -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pet
+│   ├── philips -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/philips
+│   ├── phoenix -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/phoenix
+│   ├── pico8
+│   │   └── pico8 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pico8
+│   ├── pinball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pinball
+│   ├── pinballfx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pinballfx
+│   ├── pinballfx2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pinballfx2
+│   ├── pinballfx3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pinballfx3
+│   ├── Pinball FX3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Pinball FX3
+│   ├── pinballm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pinballm
+│   ├── pitronics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/pitronics
+│   ├── playmark -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/playmark
+│   ├── plus4
+│   ├── pokemini
+│   │   └── pokemini -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pokemini
+│   ├── poly88 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/poly88
+│   ├── portmaster
+│   │   └── portmaster -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/portmaster
+│   ├── ports
+│   │   └── ports -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ports
+│   ├── positron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/positron
+│   ├── prboom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/prboom
+│   ├── primehack
+│   ├── promat -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/promat
+│   ├── ps2
+│   │   └── ps2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ps2
+│   ├── ps3
+│   │   └── ps3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ps3
+│   ├── psikyo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/psikyo
+│   ├── psion -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/psion
+│   ├── psp
+│   │   └── psp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/psp
+│   ├── pspminis -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pspminis
+│   ├── psvita
+│   │   └── psvita -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/psvita
+│   ├── psx
+│   │   └── psx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/psx
+│   ├── psx2  psvita -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/psx2  psvita
+│   ├── pv1000
+│   │   └── pv1000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/pv1000
+│   ├── quake
+│   ├── quantel -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/quantel
+│   ├── qume -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/qume
+│   ├── ramtek -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ramtek
+│   ├── rare -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/rare
+│   ├── rca -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/rca
+│   ├── regnecentralen -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/regnecentralen
+│   ├── rm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/rm
+│   ├── robotron -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/robotron
+│   ├── rockwell -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/rockwell
+│   ├── roland -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/roland
+│   ├── rolm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/rolm
+│   ├── sage -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sage
+│   ├── saitek -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/saitek
+│   ├── samcoupe -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/samcoupe
+│   ├── samsung -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/samsung
+│   ├── sanritsu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sanritsu
+│   ├── sanyo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sanyo
+│   ├── satellaview
+│   │   └── satellaview -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/satellaview
+│   ├── saturn -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/saturn
+│   ├── saturnjp
+│   ├── scummvm
+│   │   └── scummvm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/scummvm
+│   ├── scv
+│   │   └── scv -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/scv
+│   ├── sega -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sega
+│   ├── sega32x
+│   │   └── sega32x -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/sega32x
+│   ├── sega32xjp
+│   ├── sega32xna
+│   ├── segacd
+│   │   └── segacd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/segacd
+│   ├── Sega Model 2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Model 2
+│   ├── Sega Model 3 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Model 3
+│   ├── Sega Naomi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Naomi
+│   ├── Sega Naomi 2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Naomi 2
+│   ├── Sega Nomad -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Sega Nomad
+│   ├── segastv -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/segastv
+│   ├── seibu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/seibu
+│   ├── sequential -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sequential
+│   ├── seta -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/seta
+│   ├── Settings -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Settings
+│   ├── sfc
+│   │   └── sfc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/sfc
+│   ├── sfrj -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sfrj
+│   ├── sg-1000
+│   ├── sg1000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/sg1000
+│   ├── sgb
+│   │   └── sgb -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/sgb
+│   ├── sgi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sgi
+│   ├── shared -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/shared
+│   ├── sharp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sharp
+│   ├── siemens -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/siemens
+│   ├── sigma -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sigma
+│   ├── sinclair -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sinclair
+│   ├── skeleton -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/skeleton
+│   ├── slicer -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/slicer
+│   ├── snes -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/mameui260/docs/release/src/devices/bus/snes
+│   ├── snes-msu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/snes-msu
+│   ├── snesna
+│   ├── snk -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/snk
+│   ├── SNK Neo Geo CD -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/SNK Neo Geo CD
+│   ├── solarus
+│   │   └── solarus -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/solarus
+│   ├── sony -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sony
+│   ├── sord -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sord
+│   ├── spectravideo
+│   │   └── spectravideo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/spectravideo
+│   ├── stern -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/stern
+│   ├── stm -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/stm
+│   ├── stv
+│   ├── subsino -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/subsino
+│   ├── sufami
+│   │   └── sufami -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/sufami
+│   ├── sun -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sun
+│   ├── suna -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/suna
+│   ├── sunelectronics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/sunelectronics
+│   ├── superbroswar -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/superbroswar
+│   ├── supergrafx
+│   │   └── supergrafx -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/supergrafx
+│   ├── supervision
+│   │   └── supervision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/supervision
+│   ├── supracan
+│   │   └── supracan -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/supracan
+│   ├── svi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/svi
+│   ├── svision -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/svision
+│   ├── switch
+│   │   └── switch -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/switch
+│   ├── swtpc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/swtpc
+│   ├── synertek -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/synertek
+│   ├── ta -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ta
+│   ├── tab -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tab
+│   ├── taito -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/taito
+│   ├── tandberg -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tandberg
+│   ├── tangerine -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tangerine
+│   ├── tanodragon
+│   ├── tatsumi -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tatsumi
+│   ├── tatung -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tatung
+│   ├── tch -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tch
+│   ├── teamconcepts -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/teamconcepts
+│   ├── tecfri -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tecfri
+│   ├── technos -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/technos
+│   ├── tecmo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tecmo
+│   ├── teknoparrot -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/teknoparrot
+│   ├── tektronix -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tektronix
+│   ├── telenova -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/telenova
+│   ├── telercas -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/telercas
+│   ├── televideo -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/televideo
+│   ├── tesla -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tesla
+│   ├── tg16
+│   ├── tg-cd
+│   ├── theforceengine -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/theforceengine
+│   ├── thepit -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/thepit
+│   ├── thomson -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/thomson
+│   ├── ti -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ti
+│   ├── ti99
+│   │   └── ti99 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/ti99
+│   ├── tic80
+│   │   └── tic80 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/tic80
+│   ├── tiger -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tiger
+│   ├── Tiger Handheld Electronics -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/collections/Tiger Handheld Electronics
+│   ├── tigertel -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tigertel
+│   ├── tiki -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tiki
+│   ├── to8
+│   ├── toaplan -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/toaplan
+│   ├── tomy -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tomy
+│   ├── toshiba -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/toshiba
+│   ├── trainer -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/trainer
+│   ├── triforce -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/triforce
+│   ├── trs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/trs
+│   ├── tryom -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tryom
+│   ├── turbografx16 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/turbografx16
+│   ├── turbografxcd -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/turbografxcd
+│   ├── tutor -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/tutor
+│   ├── tvgames -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/tvgames
+│   ├── tyrquake -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/tyrquake
+│   ├── ultimachine -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ultimachine
+│   ├── ultratec -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ultratec
+│   ├── unicard -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/unicard
+│   ├── unico -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/unico
+│   ├── unisonic -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/unisonic
+│   ├── unisys -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/unisys
+│   ├── universal -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/universal
+│   ├── upl -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/upl
+│   ├── usp -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/usp
+│   ├── ussr -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/ussr
+│   ├── uzebox
+│   │   └── uzebox -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/uzebox
+│   ├── valadon -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/valadon
+│   ├── vectorgraphic -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/vectorgraphic
+│   ├── vectrex
+│   │   └── vectrex -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/vectrex
+│   ├── venture -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/venture
+│   ├── verifone -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/verifone
+│   ├── vic20
+│   ├── vidbrain -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/vidbrain
+│   ├── videopac
+│   ├── videoton -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/videoton
+│   ├── vircon32
+│   ├── virtual -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/virtual
+│   ├── virtualboy
+│   │   └── virtualboy -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/virtualboy
+│   ├── visual -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/visual
+│   ├── vitaquake2 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/vitaquake2
+│   ├── votrax -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/votrax
+│   ├── vpinball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/vpinball
+│   ├── vsmile
+│   │   └── vsmile -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/vsmile
+│   ├── vsystem -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/vsystem
+│   ├── vtech -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/vtech
+│   ├── wang -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/wang
+│   ├── wasm4
+│   │   └── wasm4 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wasm4
+│   ├── wavemate -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/wavemate
+│   ├── westinghouse -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/westinghouse
+│   ├── wii
+│   │   └── wii -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wii
+│   ├── wiiu
+│   │   └── wiiu -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wiiu
+│   ├── wiiware -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wiiware
+│   ├── windows -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/windows
+│   ├── windows3x
+│   ├── windows9x
+│   ├── wing -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/wing
+│   ├── wonderswan
+│   ├── wonderswancolor
+│   ├── wswan -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wswan
+│   ├── wswanc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/wswanc
+│   ├── wyse -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/wyse
+│   ├── x1
+│   │   └── x1 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/x1
+│   ├── x68000
+│   │   └── x68000 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/x68000
+│   ├── xbox
+│   │   └── xbox -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/xbox
+│   ├── xbox360 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/xbox360
+│   ├── xegs -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/xegs
+│   ├── xerox -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/xerox
+│   ├── yamaha -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/yamaha
+│   ├── yunsung -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/yunsung
+│   ├── zaccaria -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/zaccaria
+│   ├── zaccariapinball -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/zaccariapinball
+│   ├── zenith -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/zenith
+│   ├── zinc -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/zinc
+│   ├── zmachine
+│   ├── zpa -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/zpa
+│   ├── zvt -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/HyperSpin Attraction/emulators/Arcade/docs/release/src/mame/zvt
+│   ├── zx81
+│   │   └── zx81 -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/zx81
+│   └── zxspectrum
+│       └── zxspectrum -> /media/grymmjack/Super Game HDD/CORE - TYPE R/collections/COMPUTERS/roms/RetroBat/roms/bezels_project/bezels_project/zxspectrum
+├── saves
+│   ├── flash
+│   │   └── ruffle
+│   ├── gc
+│   │   ├── dolphin
+│   │   │   ├── EU
+│   │   │   ├── JP
+│   │   │   └── US
+│   │   └── primehack
+│   │       ├── EU
+│   │       ├── JP
+│   │       └── US
+│   ├── mame-sa
+│   │   ├── diff
+│   │   ├── hiscore
+│   │   └── nvram
+│   ├── n3ds
+│   │   └── azahar
+│   │       ├── nand
+│   │       └── sdmc
+│   ├── nds
+│   │   └── melonds
+│   ├── pico-8
+│   ├── ps2
+│   │   └── pcsx2
+│   │       └── memcards
+│   ├── ps3
+│   │   └── rpcs3
+│   ├── PSP
+│   │   └── PPSSPP-SA
+│   ├── psvita
+│   │   └── vita3k
+│   ├── psx
+│   │   └── duckstation
+│   │       └── memcards
+│   ├── switch
+│   │   └── ryubing
+│   │       ├── saveMeta
+│   │       ├── system
+│   │       └── user
+│   ├── wii
+│   │   ├── dolphin
+│   │   └── primehack
+│   ├── wiiu
+│   │   └── cemu
+│   └── xbox
+│       └── xemu
+├── screenshots
+│   ├── Azahar
+│   ├── Duckstation
+│   ├── mame
+│   ├── PCSX2
+│   └── xemu
+├── shaders
+│   ├── Azahar
+│   ├── Cemu
+│   │   └── transferable
+│   ├── Dolphin
+│   ├── Duckstation
+│   ├── mame
+│   │   └── bgfx
+│   │       ├── chains
+│   │       │   ├── eagle
+│   │       │   ├── hqx
+│   │       │   └── xbr
+│   │       ├── effects
+│   │       │   ├── blurs
+│   │       │   ├── crt-geom
+│   │       │   ├── default
+│   │       │   ├── eagle
+│   │       │   ├── hlsl
+│   │       │   ├── hqx
+│   │       │   ├── lcd-grid
+│   │       │   ├── misc
+│   │       │   ├── pillarbox_left_horizontal
+│   │       │   ├── pillarbox_left_vertical
+│   │       │   ├── pillarbox_right_horizontal
+│   │       │   ├── pillarbox_right_vertical
+│   │       │   ├── unfiltered
+│   │       │   ├── warp
+│   │       │   └── xbr
+│   │       │       ├── super-xbr
+│   │       │       ├── xbr-hybrid
+│   │       │       ├── xbr-lv2-multipass
+│   │       │       ├── xbr-lv3-multipass
+│   │       │       └── xbr-mlv4-multipass
+│   │       └── shaders
+│   │           ├── dx11
+│   │           │   └── chains
+│   │           │       ├── blurs
+│   │           │       ├── crt
+│   │           │       ├── crt-geom
+│   │           │       ├── default
+│   │           │       ├── eagle
+│   │           │       ├── hlsl
+│   │           │       ├── hqx
+│   │           │       ├── lcd-grid
+│   │           │       ├── misc
+│   │           │       ├── pillarbox_left_horizontal
+│   │           │       ├── pillarbox_left_vertical
+│   │           │       ├── pillarbox_right_horizontal
+│   │           │       ├── pillarbox_right_vertical
+│   │           │       ├── unfiltered
+│   │           │       ├── warp
+│   │           │       └── xbr
+│   │           │           ├── super-xbr
+│   │           │           ├── xbr-hybrid
+│   │           │           ├── xbr-lv2-multipass
+│   │           │           ├── xbr-lv3-multipass
+│   │           │           └── xbr-mlv4-multipass
+│   │           ├── dx9
+│   │           │   └── chains
+│   │           │       ├── blurs
+│   │           │       ├── crt
+│   │           │       ├── crt-geom
+│   │           │       ├── default
+│   │           │       ├── eagle
+│   │           │       ├── hlsl
+│   │           │       ├── hqx
+│   │           │       ├── lcd-grid
+│   │           │       ├── misc
+│   │           │       ├── pillarbox_left_horizontal
+│   │           │       ├── pillarbox_left_vertical
+│   │           │       ├── pillarbox_right_horizontal
+│   │           │       ├── pillarbox_right_vertical
+│   │           │       ├── unfiltered
+│   │           │       ├── warp
+│   │           │       └── xbr
+│   │           │           ├── super-xbr
+│   │           │           ├── xbr-hybrid
+│   │           │           ├── xbr-lv2-multipass
+│   │           │           ├── xbr-lv3-multipass
+│   │           │           └── xbr-mlv4-multipass
+│   │           ├── essl
+│   │           │   └── chains
+│   │           │       ├── blurs
+│   │           │       ├── crt
+│   │           │       ├── crt-geom
+│   │           │       ├── default
+│   │           │       ├── eagle
+│   │           │       ├── hlsl
+│   │           │       ├── hqx
+│   │           │       ├── lcd-grid
+│   │           │       ├── misc
+│   │           │       ├── pillarbox_left_horizontal
+│   │           │       ├── pillarbox_left_vertical
+│   │           │       ├── pillarbox_right_horizontal
+│   │           │       ├── pillarbox_right_vertical
+│   │           │       ├── unfiltered
+│   │           │       ├── warp
+│   │           │       └── xbr
+│   │           │           ├── super-xbr
+│   │           │           ├── xbr-hybrid
+│   │           │           ├── xbr-lv2-multipass
+│   │           │           ├── xbr-lv3-multipass
+│   │           │           └── xbr-mlv4-multipass
+│   │           ├── glsl
+│   │           │   └── chains
+│   │           │       ├── blurs
+│   │           │       ├── crt
+│   │           │       ├── crt-geom
+│   │           │       ├── default
+│   │           │       ├── eagle
+│   │           │       ├── hlsl
+│   │           │       ├── hqx
+│   │           │       ├── lcd-grid
+│   │           │       ├── misc
+│   │           │       ├── pillarbox_left_horizontal
+│   │           │       ├── pillarbox_left_vertical
+│   │           │       ├── pillarbox_right_horizontal
+│   │           │       ├── pillarbox_right_vertical
+│   │           │       ├── unfiltered
+│   │           │       ├── warp
+│   │           │       └── xbr
+│   │           │           ├── super-xbr
+│   │           │           ├── xbr-hybrid
+│   │           │           ├── xbr-lv2-multipass
+│   │           │           ├── xbr-lv3-multipass
+│   │           │           └── xbr-mlv4-multipass
+│   │           ├── metal
+│   │           │   └── chains
+│   │           │       ├── blurs
+│   │           │       ├── crt
+│   │           │       ├── crt-geom
+│   │           │       ├── default
+│   │           │       ├── eagle
+│   │           │       ├── hlsl
+│   │           │       ├── hqx
+│   │           │       ├── lcd-grid
+│   │           │       ├── misc
+│   │           │       ├── pillarbox_left_horizontal
+│   │           │       ├── pillarbox_left_vertical
+│   │           │       ├── pillarbox_right_horizontal
+│   │           │       ├── pillarbox_right_vertical
+│   │           │       ├── unfiltered
+│   │           │       ├── warp
+│   │           │       └── xbr
+│   │           │           ├── super-xbr
+│   │           │           ├── xbr-hybrid
+│   │           │           ├── xbr-lv2-multipass
+│   │           │           ├── xbr-lv3-multipass
+│   │           │           └── xbr-mlv4-multipass
+│   │           └── spirv
+│   │               └── chains
+│   │                   ├── blurs
+│   │                   ├── crt
+│   │                   ├── crt-geom
+│   │                   ├── default
+│   │                   ├── eagle
+│   │                   ├── hlsl
+│   │                   ├── hqx
+│   │                   ├── lcd-grid
+│   │                   ├── misc
+│   │                   ├── pillarbox_left_horizontal
+│   │                   ├── pillarbox_left_vertical
+│   │                   ├── pillarbox_right_horizontal
+│   │                   ├── pillarbox_right_vertical
+│   │                   ├── unfiltered
+│   │                   ├── warp
+│   │                   └── xbr
+│   │                       ├── super-xbr
+│   │                       ├── xbr-hybrid
+│   │                       ├── xbr-lv2-multipass
+│   │                       ├── xbr-lv3-multipass
+│   │                       └── xbr-mlv4-multipass
+│   ├── PPSSPP
+│   ├── Primehack
+│   ├── retroarch
+│   │   ├── filters
+│   │   │   ├── audio
+│   │   │   └── video
+│   │   └── shaders
+│   │       ├── shaders_cg
+│   │       │   ├── anti-aliasing
+│   │       │   │   └── shaders
+│   │       │   │       ├── aa-shader-4.o-level2
+│   │       │   │       └── reverse-aa-post3x
+│   │       │   ├── auto-box
+│   │       │   ├── bicubic
+│   │       │   │   └── shaders
+│   │       │   ├── blurs
+│   │       │   │   ├── benchmark-presets
+│   │       │   │   ├── large-input-quality-test-presets
+│   │       │   │   └── quality-test-presets
+│   │       │   ├── borders
+│   │       │   │   ├── gameboy-player
+│   │       │   │   │   └── sample-borders
+│   │       │   │   ├── resources
+│   │       │   │   ├── sgb
+│   │       │   │   │   └── sample-borders
+│   │       │   │   └── sgba
+│   │       │   │       └── sample-borders
+│   │       │   ├── cgp
+│   │       │   │   ├── n64-vifilter
+│   │       │   │   ├── tvout
+│   │       │   │   └── tvout+interlacing
+│   │       │   ├── crt
+│   │       │   │   └── shaders
+│   │       │   │       ├── crt-easymode-halation
+│   │       │   │       ├── crt-hyllian-glow
+│   │       │   │       ├── crt-hyllian-multipass
+│   │       │   │       ├── crt-interlaced-halation
+│   │       │   │       ├── crt-lottes-multipass
+│   │       │   │       ├── crt-royale
+│   │       │   │       │   ├── crt-royale-settings-files
+│   │       │   │       │   └── src
+│   │       │   │       ├── glow
+│   │       │   │       ├── GritsScanlines
+│   │       │   │       ├── GTU-famicom
+│   │       │   │       ├── gtu-v050
+│   │       │   │       └── phosphorlut-v3
+│   │       │   │           └── luts
+│   │       │   ├── ddt
+│   │       │   │   └── shaders
+│   │       │   ├── denoisers
+│   │       │   │   └── shaders
+│   │       │   ├── dithering
+│   │       │   │   └── shaders
+│   │       │   │       ├── cbod-v1
+│   │       │   │       ├── gdapt
+│   │       │   │       │   └── passes
+│   │       │   │       └── mdapt
+│   │       │   │           └── passes
+│   │       │   ├── docs
+│   │       │   ├── eagle
+│   │       │   │   └── shaders
+│   │       │   ├── gpu
+│   │       │   │   └── shaders
+│   │       │   │       └── old
+│   │       │   ├── handheld
+│   │       │   │   ├── console-border
+│   │       │   │   │   ├── resources
+│   │       │   │   │   └── shader-files
+│   │       │   │   └── shaders
+│   │       │   │       ├── color
+│   │       │   │       ├── gameboy
+│   │       │   │       │   ├── resources
+│   │       │   │       │   │   ├── sample-bgs
+│   │       │   │       │   │   └── sample-palettes
+│   │       │   │       │   └── shader-files
+│   │       │   │       ├── gb-palette
+│   │       │   │       │   └── resources
+│   │       │   │       ├── lcd_cgwg
+│   │       │   │       └── lcd-shader
+│   │       │   │           ├── backup
+│   │       │   │           ├── backup-2
+│   │       │   │           └── backup-3
+│   │       │   ├── hqx
+│   │       │   │   ├── resources
+│   │       │   │   ├── shader-files
+│   │       │   │   └── single-pass
+│   │       │   │       └── shader-files
+│   │       │   ├── include
+│   │       │   ├── interpolation
+│   │       │   │   └── shaders
+│   │       │   ├── misc
+│   │       │   ├── motionblur
+│   │       │   │   └── shaders
+│   │       │   ├── mudlord
+│   │       │   │   └── shaders
+│   │       │   ├── nedi
+│   │       │   │   └── shaders
+│   │       │   ├── neon
+│   │       │   │   └── shaders
+│   │       │   ├── ntsc
+│   │       │   │   └── shaders
+│   │       │   │       ├── artifact-colors
+│   │       │   │       └── ntsc-vcr
+│   │       │   ├── pal
+│   │       │   │   ├── resources
+│   │       │   │   └── shaders
+│   │       │   ├── python
+│   │       │   ├── quad
+│   │       │   │   └── shaders
+│   │       │   ├── reshade
+│   │       │   │   └── shaders
+│   │       │   │       └── LUT
+│   │       │   ├── sabr
+│   │       │   │   └── shaders
+│   │       │   ├── scalefx
+│   │       │   │   └── shaders
+│   │       │   │       └── old
+│   │       │   ├── scalehq
+│   │       │   │   └── shaders
+│   │       │   ├── scalenx
+│   │       │   │   └── shaders
+│   │       │   ├── sharpen
+│   │       │   │   └── shaders
+│   │       │   ├── srgb-helpers
+│   │       │   ├── test
+│   │       │   │   ├── lab
+│   │       │   │   │   ├── ddt
+│   │       │   │   │   ├── misc
+│   │       │   │   │   └── xbr
+│   │       │   │   └── optimizations
+│   │       │   ├── warp
+│   │       │   │   └── shaders
+│   │       │   ├── waterpaint
+│   │       │   │   └── shaders
+│   │       │   ├── windowed
+│   │       │   │   └── shaders
+│   │       │   ├── xbr
+│   │       │   │   └── shaders
+│   │       │   │       ├── hlsl
+│   │       │   │       ├── legacy
+│   │       │   │       ├── super-xbr
+│   │       │   │       ├── xbr-hybrid
+│   │       │   │       ├── xbr-lv2-multipass
+│   │       │   │       ├── xbr-lv3-multipass
+│   │       │   │       └── xbr-mlv4-multipass
+│   │       │   ├── xbrz
+│   │       │   │   └── shaders
+│   │       │   │       └── xbrz-freescale-multipass
+│   │       │   ├── xsai
+│   │       │   │   └── shaders
+│   │       │   ├── xsal
+│   │       │   │   └── shaders
+│   │       │   └── xsoft
+│   │       │       └── shaders
+│   │       ├── shaders_glsl
+│   │       │   ├── anti-aliasing
+│   │       │   │   └── shaders
+│   │       │   │       ├── aa-shader-4.0-level2
+│   │       │   │       └── reverse-aa-post3x
+│   │       │   ├── auto-box
+│   │       │   ├── bezel
+│   │       │   │   └── uborder
+│   │       │   │       ├── base_presets
+│   │       │   │       │   └── uborder-bezel-reflections
+│   │       │   │       ├── shaders
+│   │       │   │       │   └── content_bezel_shaders
+│   │       │   │       └── textures
+│   │       │   │           └── borders
+│   │       │   ├── blurs
+│   │       │   │   └── shaders
+│   │       │   │       ├── dual_filter
+│   │       │   │       ├── gauss_4tap
+│   │       │   │       ├── kawase
+│   │       │   │       └── royale
+│   │       │   ├── borders
+│   │       │   │   ├── gameboy-player
+│   │       │   │   │   └── sample-borders
+│   │       │   │   ├── imgborder
+│   │       │   │   ├── resources
+│   │       │   │   ├── sgb
+│   │       │   │   │   └── sample-borders
+│   │       │   │   ├── sgba
+│   │       │   │   │   └── sample-borders
+│   │       │   │   └── shaders
+│   │       │   │       └── blur_fill
+│   │       │   ├── cel
+│   │       │   │   ├── presets
+│   │       │   │   └── shaders
+│   │       │   ├── crt
+│   │       │   │   └── shaders
+│   │       │   │       ├── crt-consumer
+│   │       │   │       ├── crt-easymode-halation
+│   │       │   │       ├── crt-interlaced-halation
+│   │       │   │       ├── crt-lottes-multipass
+│   │       │   │       ├── crt-potato
+│   │       │   │       │   ├── resources
+│   │       │   │       │   └── shader-files
+│   │       │   │       ├── crt-royale
+│   │       │   │       │   ├── port-helpers
+│   │       │   │       │   └── src
+│   │       │   │       ├── crtsim
+│   │       │   │       ├── crt-yo6
+│   │       │   │       ├── glow
+│   │       │   │       ├── GritsScanlines
+│   │       │   │       ├── gtu-v050
+│   │       │   │       ├── guest
+│   │       │   │       │   ├── fast
+│   │       │   │       │   └── lut
+│   │       │   │       ├── hyllian
+│   │       │   │       │   ├── crt-hyllian-glow
+│   │       │   │       │   └── crt-hyllian-multipass
+│   │       │   │       ├── mame_hlsl
+│   │       │   │       │   ├── resources
+│   │       │   │       │   └── shaders
+│   │       │   │       ├── metacrt
+│   │       │   │       ├── phosphorlut
+│   │       │   │       │   └── luts
+│   │       │   │       ├── torridgristle
+│   │       │   │       └── tvout-tweaks-multipass
+│   │       │   ├── cubic
+│   │       │   │   └── shaders
+│   │       │   ├── cut
+│   │       │   │   └── shaders
+│   │       │   │       ├── cut1
+│   │       │   │       ├── cut2
+│   │       │   │       └── cut3
+│   │       │   ├── ddt
+│   │       │   │   └── shaders
+│   │       │   ├── deblur
+│   │       │   │   └── shaders
+│   │       │   ├── denoisers
+│   │       │   │   └── shaders
+│   │       │   ├── dithering
+│   │       │   │   └── shaders
+│   │       │   │       ├── cbod-v1
+│   │       │   │       ├── gdapt
+│   │       │   │       └── mdapt
+│   │       │   │           └── passes
+│   │       │   ├── eagle
+│   │       │   │   └── shaders
+│   │       │   ├── film
+│   │       │   │   ├── resources
+│   │       │   │   └── shaders
+│   │       │   ├── fsr
+│   │       │   │   └── shaders
+│   │       │   ├── gpu
+│   │       │   │   └── shaders
+│   │       │   │       └── 3dfx
+│   │       │   ├── handheld
+│   │       │   │   ├── console-border
+│   │       │   │   │   ├── resources
+│   │       │   │   │   └── shader-files
+│   │       │   │   └── shaders
+│   │       │   │       ├── authentic_gbc
+│   │       │   │       ├── color
+│   │       │   │       ├── gameboy
+│   │       │   │       │   ├── resources
+│   │       │   │       │   │   ├── sample-bgs
+│   │       │   │       │   │   └── sample-palettes
+│   │       │   │       │   └── shader-files
+│   │       │   │       ├── gameboy-dm-color
+│   │       │   │       ├── gb-palette
+│   │       │   │       │   └── resources
+│   │       │   │       ├── lcd-cgwg
+│   │       │   │       ├── lcd-shader
+│   │       │   │       ├── mgba
+│   │       │   │       ├── sameboy-palettes
+│   │       │   │       │   └── resources
+│   │       │   │       └── simpletex_lcd
+│   │       │   │           └── png
+│   │       │   │               ├── 2k
+│   │       │   │               └── 4k
+│   │       │   ├── hqx
+│   │       │   │   ├── resources
+│   │       │   │   ├── shader-files
+│   │       │   │   └── single-pass
+│   │       │   │       └── shader-files
+│   │       │   ├── interpolation
+│   │       │   │   └── shaders
+│   │       │   ├── linear
+│   │       │   ├── misc
+│   │       │   │   └── shaders
+│   │       │   ├── motionblur
+│   │       │   │   └── shaders
+│   │       │   ├── nedi
+│   │       │   │   └── shaders
+│   │       │   ├── nes_raw_palette
+│   │       │   │   └── shaders
+│   │       │   │       ├── cgwg-famicom-geom
+│   │       │   │       └── gtu-famicom
+│   │       │   ├── nnedi3
+│   │       │   │   └── shaders
+│   │       │   ├── ntsc
+│   │       │   │   └── shaders
+│   │       │   │       ├── artifact-colors
+│   │       │   │       ├── blargg
+│   │       │   │       ├── ntsc-adaptive
+│   │       │   │       ├── ntsc-cgwg-tm
+│   │       │   │       ├── ntsc-ompuco
+│   │       │   │       └── ntsc-simple
+│   │       │   ├── omniscale
+│   │       │   │   └── shaders
+│   │       │   ├── pal
+│   │       │   │   ├── resources
+│   │       │   │   └── shaders
+│   │       │   ├── pixel-art-scaling
+│   │       │   │   └── shaders
+│   │       │   │       └── pixel_aa
+│   │       │   ├── presets
+│   │       │   │   ├── crt-faker
+│   │       │   │   ├── gizmo-crt
+│   │       │   │   ├── tvout
+│   │       │   │   └── tvout+interlacing
+│   │       │   ├── procedural
+│   │       │   │   ├── dakrunch-manta-ray
+│   │       │   │   ├── iq-canyon
+│   │       │   │   ├── iq-repelling
+│   │       │   │   ├── iq-warping-texture
+│   │       │   │   ├── kali-space-race
+│   │       │   │   ├── kali-space-race-hd
+│   │       │   │   ├── nimitz-cloud-ten
+│   │       │   │   ├── pmalin-waterfalls
+│   │       │   │   ├── pmalin-waterfalls-hd
+│   │       │   │   ├── shane-abstract-corridor
+│   │       │   │   ├── sudonhim-cloudy-voxel-world
+│   │       │   │   └── sudonhim-cloudy-voxel-world-2
+│   │       │   ├── reshade
+│   │       │   │   └── shaders
+│   │       │   │       ├── blendoverlay
+│   │       │   │       ├── bloom
+│   │       │   │       └── LUT
+│   │       │   ├── sabr
+│   │       │   │   └── shaders
+│   │       │   ├── scalefx
+│   │       │   │   └── shaders
+│   │       │   ├── scalehq
+│   │       │   │   └── shaders
+│   │       │   ├── scalenx
+│   │       │   │   └── shaders
+│   │       │   ├── scanlines
+│   │       │   │   └── shaders
+│   │       │   ├── sharpen
+│   │       │   │   └── shaders
+│   │       │   ├── stereoscopic-3d
+│   │       │   │   └── shaders
+│   │       │   ├── vhs
+│   │       │   │   ├── resources
+│   │       │   │   └── shaders
+│   │       │   ├── windowed
+│   │       │   │   └── shaders
+│   │       │   ├── xbr
+│   │       │   │   └── shaders
+│   │       │   │       ├── 2xBR-multipass
+│   │       │   │       ├── super-xbr
+│   │       │   │       ├── xbr-hybrid
+│   │       │   │       ├── xbr-lv3-multipass
+│   │       │   │       └── xbr-mlv4-multipass
+│   │       │   ├── xbrz
+│   │       │   │   └── shaders
+│   │       │   │       └── xbrz-freescale-multipass
+│   │       │   ├── xsal
+│   │       │   │   └── shaders
+│   │       │   └── xsoft
+│   │       │       └── shaders
+│   │       └── shaders_slang
+│   │           ├── anamorphic
+│   │           │   └── shaders
+│   │           ├── anti-aliasing
+│   │           │   └── shaders
+│   │           │       ├── aa-shader-4.0-level2
+│   │           │       ├── reverse-aa-post3x
+│   │           │       └── smaa
+│   │           ├── auto-box
+│   │           ├── bezel
+│   │           │   ├── koko-aio
+│   │           │   │   ├── config
+│   │           │   │   ├── Presets-4.1
+│   │           │   │   ├── Presets_Handhelds-ng
+│   │           │   │   ├── Presets_HiresGames_Fast
+│   │           │   │   │   ├── Presets-4.1
+│   │           │   │   │   ├── Presets_Handhelds-ng
+│   │           │   │   │   └── Presets-ng
+│   │           │   │   │       ├── TV
+│   │           │   │   │       ├── VectorGFX
+│   │           │   │   │       └── VGA
+│   │           │   │   ├── Presets-ng
+│   │           │   │   │   ├── TV
+│   │           │   │   │   ├── VectorGFX
+│   │           │   │   │   └── VGA
+│   │           │   │   ├── shaders-ng
+│   │           │   │   │   └── includes
+│   │           │   │   └── textures
+│   │           │   │       └── overlays
+│   │           │   ├── Mega_Bezel
+│   │           │   │   ├── Presets
+│   │           │   │   │   ├── Base_CRT_Presets
+│   │           │   │   │   │   └── Root_Presets
+│   │           │   │   │   ├── Base_CRT_Presets_DREZ
+│   │           │   │   │   │   └── Root_Presets
+│   │           │   │   │   ├── Experimental
+│   │           │   │   │   └── Variations
+│   │           │   │   │       ├── CRT-Flavors
+│   │           │   │   │       ├── Dual-Screen
+│   │           │   │   │       ├── Lightgun
+│   │           │   │   │       ├── Megatron
+│   │           │   │   │       │   ├── ADV
+│   │           │   │   │       │   │   └── shaders
+│   │           │   │   │       │   ├── ADV-SCREEN-ONLY
+│   │           │   │   │       │   │   └── shaders
+│   │           │   │   │       │   ├── _params
+│   │           │   │   │       │   ├── STD
+│   │           │   │   │       │   │   └── shaders
+│   │           │   │   │       │   └── STD-SCREEN-ONLY
+│   │           │   │   │       │       └── shaders
+│   │           │   │   │       ├── Screen-Only
+│   │           │   │   │       │   ├── Default
+│   │           │   │   │       │   └── Max-Int-Scale
+│   │           │   │   │       ├── Smoothed
+│   │           │   │   │       └── Vector
+│   │           │   │   ├── resource
+│   │           │   │   │   ├── docs
+│   │           │   │   │   ├── param_values
+│   │           │   │   │   │   ├── base
+│   │           │   │   │   │   ├── color-correction
+│   │           │   │   │   │   ├── core-defaults
+│   │           │   │   │   │   │   ├── core
+│   │           │   │   │   │   │   └── video-driver_core
+│   │           │   │   │   │   ├── crt
+│   │           │   │   │   │   ├── dual-screen
+│   │           │   │   │   │   ├── light
+│   │           │   │   │   │   ├── lightgun
+│   │           │   │   │   │   ├── reflect
+│   │           │   │   │   │   ├── scale
+│   │           │   │   │   │   ├── scene
+│   │           │   │   │   │   ├── smooth
+│   │           │   │   │   │   ├── tube-aspect-orientation
+│   │           │   │   │   │   ├── tube-effect
+│   │           │   │   │   │   ├── tube-rotation
+│   │           │   │   │   │   └── viewport-flip
+│   │           │   │   │   └── wildcard-examples
+│   │           │   │   │       ├── example-content
+│   │           │   │   │       └── referenced-presets
+│   │           │   │   │           └── textures
+│   │           │   │   └── shaders
+│   │           │   │       ├── base
+│   │           │   │       │   └── common
+│   │           │   │       ├── dedither
+│   │           │   │       ├── dogway
+│   │           │   │       ├── easymode
+│   │           │   │       ├── fxaa
+│   │           │   │       ├── gtu
+│   │           │   │       ├── guest
+│   │           │   │       │   ├── extras
+│   │           │   │       │   ├── lut
+│   │           │   │       │   └── ntsc
+│   │           │   │       ├── hyllian
+│   │           │   │       │   ├── checkerboard-dedither
+│   │           │   │       │   ├── crt-super-xbr
+│   │           │   │       │   ├── cubic
+│   │           │   │       │   ├── sgenpt-mix
+│   │           │   │       │   └── sgenpt-mix-old
+│   │           │   │       ├── lcd-cgwg
+│   │           │   │       ├── mdapt
+│   │           │   │       ├── megatron
+│   │           │   │       │   └── include
+│   │           │   │       ├── newpixie
+│   │           │   │       ├── ps1dither
+│   │           │   │       ├── scalefx
+│   │           │   │       └── textures
+│   │           │   │           └── lut
+│   │           │   └── uborder
+│   │           │       ├── base_presets
+│   │           │       │   ├── koko-ambi
+│   │           │       │   ├── uborder-bezel-reflections
+│   │           │       │   │   ├── crt
+│   │           │       │   │   ├── handheld
+│   │           │       │   │   └── vector
+│   │           │       │   └── uborder-koko-ambi
+│   │           │       │       ├── crt
+│   │           │       │       ├── handheld
+│   │           │       │       └── vector
+│   │           │       ├── preset_tools
+│   │           │       ├── shaders
+│   │           │       │   ├── content_bezel_shaders
+│   │           │       │   │   ├── base_shaders
+│   │           │       │   │   │   ├── crt
+│   │           │       │   │   │   │   ├── guest
+│   │           │       │   │   │   │   │   ├── advanced
+│   │           │       │   │   │   │   │   └── hd
+│   │           │       │   │   │   │   ├── newpixie
+│   │           │       │   │   │   │   └── phosphor-persistence
+│   │           │       │   │   │   ├── handheld
+│   │           │       │   │   │   └── vector
+│   │           │       │   │   ├── crt
+│   │           │       │   │   │   ├── guest
+│   │           │       │   │   │   │   ├── advanced
+│   │           │       │   │   │   │   └── hd
+│   │           │       │   │   │   ├── newpixie
+│   │           │       │   │   │   └── phosphor-persistence
+│   │           │       │   │   ├── handheld
+│   │           │       │   │   ├── include
+│   │           │       │   │   └── vector
+│   │           │       │   ├── content_koko_ambi
+│   │           │       │   │   ├── crt
+│   │           │       │   │   │   ├── guest
+│   │           │       │   │   │   │   ├── advanced
+│   │           │       │   │   │   │   └── hd
+│   │           │       │   │   │   ├── newpixie
+│   │           │       │   │   │   └── phosphor-persistence
+│   │           │       │   │   ├── handheld
+│   │           │       │   │   └── vector
+│   │           │       │   ├── content_shaders
+│   │           │       │   │   └── include
+│   │           │       │   └── support_shaders
+│   │           │       │       ├── g-sharp2_resampler
+│   │           │       │       └── koko-ambi-standalone
+│   │           │       └── textures
+│   │           │           └── borders
+│   │           ├── blurs
+│   │           │   └── shaders
+│   │           │       ├── dual_filter
+│   │           │       ├── gauss_4tap
+│   │           │       ├── gaussian_blur_filtering
+│   │           │       ├── kawase
+│   │           │       ├── royale
+│   │           │       └── sunset_gaussian
+│   │           ├── border
+│   │           │   ├── gameboy-player
+│   │           │   │   └── sample-borders
+│   │           │   ├── handheld-nebula
+│   │           │   ├── sgb
+│   │           │   │   └── sample-borders
+│   │           │   ├── sgba
+│   │           │   │   └── sample-borders
+│   │           │   ├── shaders
+│   │           │   │   ├── autocrop-koko
+│   │           │   │   ├── average_fill
+│   │           │   │   └── blur_fill
+│   │           │   └── textures
+│   │           ├── cel
+│   │           │   └── shaders
+│   │           │       └── MMJ_Cel
+│   │           ├── crt
+│   │           │   ├── crt-effects
+│   │           │   │   └── shaders
+│   │           │   │       ├── crt-black-crush-koko
+│   │           │   │       ├── glow-trails
+│   │           │   │       ├── phosphorlut
+│   │           │   │       │   └── luts
+│   │           │   │       ├── phosphor-persistence
+│   │           │   │       ├── raster_bloom
+│   │           │   │       └── rt_curvature
+│   │           │   └── shaders
+│   │           │       ├── cathode-retro
+│   │           │       ├── CreativeForce
+│   │           │       ├── crt-beans
+│   │           │       │   └── docs
+│   │           │       ├── crt-consumer
+│   │           │       ├── crt-easymode-halation
+│   │           │       ├── crt-interlaced-halation
+│   │           │       ├── crt-lottes-multipass
+│   │           │       ├── crt-maximus-royale
+│   │           │       │   ├── FrameTextures
+│   │           │       │   │   └── 16_9
+│   │           │       │   ├── src
+│   │           │       │   └── TilePhosphorTextures
+│   │           │       ├── crt-potato
+│   │           │       │   ├── resources
+│   │           │       │   └── shader-files
+│   │           │       ├── crt-royale
+│   │           │       │   ├── crt-royale-settings-files
+│   │           │       │   ├── src
+│   │           │       │   └── src-fast
+│   │           │       ├── crtsim
+│   │           │       ├── crt-slangtest
+│   │           │       ├── crt-super-xbr
+│   │           │       ├── crt-yah
+│   │           │       │   ├── common
+│   │           │       │   ├── lut
+│   │           │       │   └── presets
+│   │           │       ├── crt-yo6
+│   │           │       ├── geom-deluxe
+│   │           │       │   └── masks
+│   │           │       ├── glow
+│   │           │       ├── GritsScanlines
+│   │           │       ├── gtu-v050
+│   │           │       ├── guest
+│   │           │       │   ├── advanced
+│   │           │       │   │   ├── grade
+│   │           │       │   │   ├── lut
+│   │           │       │   │   └── ntsc
+│   │           │       │   ├── fast
+│   │           │       │   └── hd
+│   │           │       ├── hyllian
+│   │           │       │   └── support
+│   │           │       │       ├── glow
+│   │           │       │       ├── LUT
+│   │           │       │       └── ntsc
+│   │           │       │           └── shaders
+│   │           │       │               └── ntsc-adaptive-lite
+│   │           │       ├── mame_hlsl
+│   │           │       │   ├── resources
+│   │           │       │   └── shaders
+│   │           │       │       └── old
+│   │           │       │           └── shaders
+│   │           │       │               └── mame_hlsl
+│   │           │       │                   └── shaders
+│   │           │       ├── metacrt
+│   │           │       ├── newpixie
+│   │           │       ├── newpixie-mini
+│   │           │       ├── simple-crt
+│   │           │       ├── torridgristle
+│   │           │       ├── vt220
+│   │           │       └── zfast_crt
+│   │           ├── deblur
+│   │           │   └── shaders
+│   │           ├── deinterlacing
+│   │           │   └── shaders
+│   │           │       └── nnedi3-deinterlacing
+│   │           ├── denoisers
+│   │           │   └── shaders
+│   │           ├── dithering
+│   │           │   └── shaders
+│   │           │       ├── blue-noise
+│   │           │       ├── cbod-v1
+│   │           │       ├── checkerboard-dedither
+│   │           │       ├── gdapt
+│   │           │       ├── mdapt
+│   │           │       │   └── passes
+│   │           │       ├── ps1dither
+│   │           │       └── sgenpt-mix
+│   │           ├── downsample
+│   │           │   ├── drez
+│   │           │   ├── mixed-res
+│   │           │   │   ├── 2x
+│   │           │   │   ├── 3x
+│   │           │   │   ├── 4x
+│   │           │   │   └── hooks
+│   │           │   └── shaders
+│   │           │       └── mixed-res
+│   │           │           └── support
+│   │           ├── edge-smoothing
+│   │           │   ├── cleanEdge
+│   │           │   │   └── shaders
+│   │           │   ├── ddt
+│   │           │   │   └── shaders
+│   │           │   ├── eagle
+│   │           │   │   └── shaders
+│   │           │   ├── fsr
+│   │           │   │   └── shaders
+│   │           │   ├── hqx
+│   │           │   │   ├── resources
+│   │           │   │   └── shaders
+│   │           │   ├── nedi
+│   │           │   │   ├── presets
+│   │           │   │   └── shaders
+│   │           │   ├── nnedi3
+│   │           │   │   └── shaders
+│   │           │   ├── omniscale
+│   │           │   │   └── shaders
+│   │           │   ├── sabr
+│   │           │   │   └── shaders
+│   │           │   ├── scalefx
+│   │           │   │   └── shaders
+│   │           │   │       └── old
+│   │           │   ├── scalehq
+│   │           │   │   └── shaders
+│   │           │   ├── scalenx
+│   │           │   │   └── shaders
+│   │           │   ├── xbr
+│   │           │   │   ├── other presets
+│   │           │   │   │   └── shaders
+│   │           │   │   │       ├── 2xBR-multipass
+│   │           │   │   │       ├── super-xbr
+│   │           │   │   │       └── xbr-hybrid
+│   │           │   │   └── shaders
+│   │           │   │       ├── super-xbr
+│   │           │   │       ├── support
+│   │           │   │       ├── xbr-lv2-multipass
+│   │           │   │       ├── xbr-lv3-multipass
+│   │           │   │       └── xbr-mlv4-multipass
+│   │           │   ├── xbrz
+│   │           │   │   └── shaders
+│   │           │   │       └── xbrz-freescale-multipass
+│   │           │   ├── xsal
+│   │           │   │   └── shaders
+│   │           │   └── xsoft
+│   │           │       └── shaders
+│   │           ├── film
+│   │           │   ├── resources
+│   │           │   └── shaders
+│   │           ├── gpu
+│   │           │   └── shaders
+│   │           │       └── 3dfx
+│   │           │           └── old
+│   │           ├── handheld
+│   │           │   ├── color-mod
+│   │           │   ├── console-border
+│   │           │   │   ├── resources
+│   │           │   │   └── shader-files
+│   │           │   │       └── lcd-cgwg
+│   │           │   └── shaders
+│   │           │       ├── authentic_gbc
+│   │           │       ├── color
+│   │           │       │   └── lut
+│   │           │       ├── gameboy
+│   │           │       │   ├── resources
+│   │           │       │   │   ├── sample-bgs
+│   │           │       │   │   └── sample-palettes
+│   │           │       │   └── shader-files
+│   │           │       ├── gb-palette
+│   │           │       │   └── resources
+│   │           │       ├── lcd-cgwg
+│   │           │       ├── lcd-shader
+│   │           │       ├── mgba
+│   │           │       └── simpletex_lcd
+│   │           │           └── png
+│   │           │               ├── 2k
+│   │           │               └── 4k
+│   │           ├── hdr
+│   │           │   └── shaders
+│   │           │       └── include
+│   │           ├── include
+│   │           │   └── img
+│   │           ├── interpolation
+│   │           │   ├── linear-gamma-presets
+│   │           │   └── shaders
+│   │           │       ├── bicubic
+│   │           │       ├── lanczos
+│   │           │       ├── spline
+│   │           │       └── support
+│   │           ├── linear
+│   │           ├── misc
+│   │           │   └── shaders
+│   │           │       ├── coverage
+│   │           │       ├── deposterize
+│   │           │       ├── input_transform
+│   │           │       ├── print-resolution
+│   │           │       └── test-pattern
+│   │           ├── motionblur
+│   │           │   └── shaders
+│   │           ├── motion-interpolation
+│   │           │   └── shaders
+│   │           │       └── motion_interpolation
+│   │           ├── nes_raw_palette
+│   │           │   └── shaders
+│   │           │       ├── cgwg-famicom-geom
+│   │           │       └── gtu-famicom
+│   │           ├── ntsc
+│   │           │   └── shaders
+│   │           │       ├── artifact-colors
+│   │           │       ├── blargg
+│   │           │       ├── maister
+│   │           │       ├── mame-ntsc
+│   │           │       ├── ntsc-adaptive
+│   │           │       ├── ntsc-adaptive-tate
+│   │           │       ├── ntsc-simple
+│   │           │       └── patchy-ntsc
+│   │           │           └── afterglow0-update
+│   │           ├── pal
+│   │           │   ├── resources
+│   │           │   └── shaders
+│   │           ├── pixel-art-scaling
+│   │           │   └── shaders
+│   │           │       ├── box_filter_aa
+│   │           │       └── pixel_aa
+│   │           ├── presets
+│   │           │   ├── blurs
+│   │           │   ├── crt-beam-simulator
+│   │           │   ├── crt-ntsc-sharp
+│   │           │   ├── crt-plus-signal
+│   │           │   ├── crt-potato
+│   │           │   ├── crt-royale-fast
+│   │           │   │   └── 4k
+│   │           │   ├── downsample
+│   │           │   ├── fsr
+│   │           │   ├── gizmo-crt
+│   │           │   ├── handheld-plus-color-mod
+│   │           │   ├── interpolation
+│   │           │   ├── scalefx-plus-smoothing
+│   │           │   ├── tvout
+│   │           │   ├── tvout+interlacing
+│   │           │   └── xbr-xsal
+│   │           ├── procedural
+│   │           ├── quad
+│   │           │   └── shaders
+│   │           ├── reshade
+│   │           │   ├── handheld-color-LUTs
+│   │           │   └── shaders
+│   │           │       ├── blendoverlay
+│   │           │       ├── bloom
+│   │           │       ├── LUT
+│   │           │       │   └── handheld
+│   │           │       ├── magicbloom
+│   │           │       └── NormalsDisplacement
+│   │           ├── scanlines
+│   │           │   └── shaders
+│   │           ├── sharpen
+│   │           │   └── shaders
+│   │           │       └── anime4k
+│   │           ├── spec
+│   │           ├── stereoscopic-3d
+│   │           │   └── shaders
+│   │           │       └── fubax_vr
+│   │           ├── subframe-bfi
+│   │           │   └── shaders
+│   │           │       ├── 120hz-smart-BFI
+│   │           │       └── motionblur_test
+│   │           │           ├── resources
+│   │           │           └── shaders
+│   │           ├── test
+│   │           ├── vhs
+│   │           │   ├── resources
+│   │           │   └── shaders
+│   │           │       ├── gristleVHS
+│   │           │       ├── vhs_mpalko
+│   │           │       └── VHSPro
+│   │           └── warp
+│   │               └── shaders
+│   ├── retroarch-core
+│   │   └── fbneo
+│   │       └── blend
+│   ├── Vita3K
+│   └── xemu
+├── states
+│   ├── dolphin
+│   ├── mame-sa
+│   ├── nds
+│   │   └── melonds
+│   ├── primehack
+│   ├── ps2
+│   │   └── pcsx2
+│   ├── ps3
+│   │   └── rpcs3
+│   ├── PSP
+│   │   └── PPSSPP-SA
+│   ├── psx
+│   │   └── duckstation
+│   └── xroar
+│       ├── coco
+│       ├── dragon32
+│       └── tanodragon
+├── storage
+│   ├── Dolphin
+│   │   └── Dump
+│   ├── Duckstation
+│   │   └── dump
+│   │       ├── audio
+│   │       └── textures
+│   ├── gzdoom
+│   │   └── audio
+│   │       ├── fm_banks
+│   │       ├── midi
+│   │       └── soundfonts
+│   ├── mame
+│   │   ├── artwork
+│   │   ├── artwork-preview
+│   │   ├── bosses
+│   │   ├── cabinets
+│   │   ├── comments
+│   │   ├── covers
+│   │   ├── cpanel
+│   │   ├── crosshair
+│   │   ├── dats
+│   │   ├── ends
+│   │   ├── flyers
+│   │   ├── folders
+│   │   ├── fonts
+│   │   ├── gameover
+│   │   ├── hash
+│   │   ├── howto
+│   │   ├── icons
+│   │   ├── language
+│   │   ├── logo
+│   │   ├── marquees
+│   │   ├── pcb
+│   │   ├── scores
+│   │   ├── select
+│   │   ├── share
+│   │   ├── software
+│   │   ├── titles
+│   │   ├── ui
+│   │   └── versus
+│   ├── PCSX2
+│   │   └── covers
+│   ├── Primehack
+│   │   └── Dump
+│   ├── psvita
+│   │   └── Vita3K
+│   │       ├── lang
+│   │       ├── patch
+│   │       └── ux0
+│   │           ├── textures
+│   │           │   └── import -> /home/grymmjack/retrodeck/texture_packs/Vita3K/import
+│   │           └── user
+│   │               └── 00
+│   │                   └── savedata -> /home/grymmjack/retrodeck/saves/psvita/vita3k
+│   ├── retroarch
+│   │   └── ScummVM
+│   │       ├── extra
+│   │       ├── icons
+│   │       └── theme
+│   ├── rpcs3
+│   │   ├── captures
+│   │   ├── dev_bdvd
+│   │   ├── dev_flash
+│   │   ├── dev_flash2
+│   │   ├── dev_flash3
+│   │   ├── dev_hdd0
+│   │   │   └── home
+│   │   │       └── 00000001
+│   │   │           └── savedata -> /home/grymmjack/retrodeck/saves/ps3/rpcs3
+│   │   ├── dev_hdd1
+│   │   ├── dev_usb000
+│   │   └── patches
+│   └── switch
+│       ├── dlc
+│       └── updates
+├── texture_packs
+│   ├── Azahar
+│   │   └── textures
+│   ├── Cemu
+│   │   └── graphicPacks
+│   ├── Dolphin
+│   │   └── Textures
+│   ├── Duckstation
+│   │   └── textures
+│   ├── PCSX2
+│   │   └── textures
+│   ├── PPSSPP
+│   │   └── TEXTURES
+│   ├── Primehack
+│   ├── retroarch-core
+│   │   ├── Citra
+│   │   │   └── textures
+│   │   ├── Dolphin
+│   │   │   └── Textures
+│   │   ├── Flycast
+│   │   │   └── textures
+│   │   ├── Mesen
+│   │   │   └── HdPacks
+│   │   ├── Mupen64Plus
+│   │   │   ├── cache
+│   │   │   └── hires_texture
+│   │   └── PPSSPP
+│   │       └── TEXTURES
+│   └── Vita3K
+│       └── import
+└── videos
+    ├── PCSX2
+    └── retroarch
+
+3225 directories
