@@ -246,6 +246,37 @@ def grant_flatpak_permissions():
         print(f"   ⚠️  Error: {e}")
         return False
 
+def fix_display_scaling():
+    """Fix RetroDeck display scaling for 4K monitors"""
+    print("\n🖥️  Configuring display scaling for 4K...")
+    
+    cmd = [
+        "flatpak", "override", "--user",
+        "--env=GDK_SCALE=1",
+        "--env=GDK_DPI_SCALE=1",
+        "--env=QT_SCALE_FACTOR=1",
+        "net.retrodeck.retrodeck"
+    ]
+    
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
+        if result.returncode == 0:
+            print("   ✅ Set native 4K resolution (no scaling)")
+            print("   💡 This fixes fullscreen issues with 150% display scaling")
+            return True
+        else:
+            print(f"   ⚠️  Could not set scaling: {result.stderr}")
+            return False
+    except subprocess.TimeoutExpired:
+        print("   ⚠️  Command timed out")
+        return False
+    except FileNotFoundError:
+        print("   ⚠️  Flatpak not found")
+        return False
+    except Exception as e:
+        print(f"   ⚠️  Error: {e}")
+        return False
+
 
 def main():
     # Parse command line arguments
@@ -254,8 +285,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python3 kinhank-simple.py           # Preview what would be linked (dry run)
-  python3 kinhank-simple.py --apply   # Actually create the symlinks
+  python3 kinhank-simple.py                        # Preview what would be linked (dry run)
+  python3 kinhank-simple.py --apply                # Actually create the symlinks
+  python3 kinhank-simple.py --apply --use-custom-mame  # Use custom MAME path instead
         """
     )
     parser.add_argument(
@@ -263,9 +295,15 @@ Examples:
         action='store_true',
         help='Apply changes (create symlinks). Without this flag, runs in dry-run mode.'
     )
+    parser.add_argument(
+        '--use-custom-mame',
+        action='store_true',
+        help='Use custom MAME path (/media/grymmjack/Super Game HDD/kinhank-roms/mame/) instead of HyperSpin Attraction'
+    )
     
     args = parser.parse_args()
     dry_run = not args.apply
+    use_custom_mame = args.use_custom_mame
     
     print("=" * 70)
     print("🎮 KINHANK TO RETRODECK - SIMPLE MAPPER")
@@ -292,11 +330,59 @@ Examples:
         
         # Special case for MAME - link the whole folder
         if parent_name == "mame":
-            has_games, actual_path, media_parent = has_roms(parent_path)
-            if has_games:
-                print(f"   🎯 Found MAME ROMs")
-                if link_system(actual_path or parent_path, "mame", media_parent, dry_run):
-                    linked_count += 1
+            # Check if using custom MAME path
+            if use_custom_mame:
+                custom_mame_path = "/media/grymmjack/Super Game HDD/kinhank-roms/mame"
+                custom_media_path = os.path.join(custom_mame_path, "media")
+                
+                if os.path.exists(custom_mame_path):
+                    print(f"   🎯 Using custom MAME path")
+                    
+                    if dry_run:
+                        print(f"   [DRY RUN] Would link: {custom_mame_path} -> ~/retrodeck/roms/mame")
+                        linked_count += 1
+                    else:
+                        # Link ROM folder
+                        dest = os.path.join(RD_ROMS, "mame")
+                        os.makedirs(RD_ROMS, exist_ok=True)
+                        
+                        if safe_remove_link(dest):
+                            try:
+                                os.symlink(custom_mame_path, dest)
+                                print(f"   ✅ Linked: mame")
+                                linked_count += 1
+                                
+                                # Link custom media folders
+                                if os.path.exists(custom_media_path):
+                                    media_dest = os.path.join(RD_MEDIA, "mame")
+                                    os.makedirs(media_dest, exist_ok=True)
+                                    
+                                    # Map custom MAME media folders
+                                    custom_media_map = {
+                                        "box3d": "covers",
+                                        "images": "screenshots"
+                                    }
+                                    
+                                    for src_name, dest_name in custom_media_map.items():
+                                        src_media = os.path.join(custom_media_path, src_name)
+                                        if os.path.exists(src_media):
+                                            media_link = os.path.join(media_dest, dest_name)
+                                            safe_remove_link(media_link)
+                                            try:
+                                                os.symlink(src_media, media_link)
+                                            except:
+                                                pass
+                            except Exception as e:
+                                print(f"   ❌ Error: {e}")
+                else:
+                    print(f"   ⚠️  Custom MAME path not found: {custom_mame_path}")
+            else:
+                # Use original HyperSpin MAME path
+                has_games, actual_path, media_parent = has_roms(parent_path)
+                if has_games:
+                    print(f"   🎯 Found MAME ROMs")
+                    if link_system(actual_path or parent_path, "mame", media_parent, dry_run):
+                        linked_count += 1
             continue
         
         # Special case for TeknoParrot
@@ -379,6 +465,9 @@ Examples:
         
         # Grant Flatpak permissions
         grant_flatpak_permissions()
+        
+        # Fix display scaling for 4K monitors
+        fix_display_scaling()
         
         print("\n🎮 Next steps:")
         print("   1. Restart RetroDeck:")
